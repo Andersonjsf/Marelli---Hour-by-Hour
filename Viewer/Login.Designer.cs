@@ -70,6 +70,7 @@ namespace Marelli___Hour_by_Hour
             // 
             this.TxtBox_UserID.Location = new System.Drawing.Point(58, 203);
             this.TxtBox_UserID.Name = "TxtBox_UserID";
+            this.TxtBox_UserID.PlaceholderText = "Digite sua matricula";
             this.TxtBox_UserID.Size = new System.Drawing.Size(146, 23);
             this.TxtBox_UserID.TabIndex = 1;
             // 
@@ -78,6 +79,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_Password.Location = new System.Drawing.Point(58, 275);
             this.TxtBox_Password.Name = "TxtBox_Password";
             this.TxtBox_Password.PasswordChar = '*';
+            this.TxtBox_Password.PlaceholderText = "Digite sua senha";
             this.TxtBox_Password.Size = new System.Drawing.Size(146, 23);
             this.TxtBox_Password.TabIndex = 2;
             // 
