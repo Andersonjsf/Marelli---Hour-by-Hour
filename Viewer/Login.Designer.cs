@@ -36,6 +36,8 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_UserID = new System.Windows.Forms.TextBox();
             this.TxtBox_Password = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Button_Cancelar = new System.Windows.Forms.Button();
+            this.Button_Cadastrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,12 +61,15 @@ namespace Marelli___Hour_by_Hour
             // 
             // Button_Login
             // 
-            this.Button_Login.Location = new System.Drawing.Point(72, 331);
+            this.Button_Login.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Login.ForeColor = System.Drawing.Color.Black;
+            this.Button_Login.Location = new System.Drawing.Point(58, 336);
             this.Button_Login.Name = "Button_Login";
-            this.Button_Login.Size = new System.Drawing.Size(121, 23);
+            this.Button_Login.Size = new System.Drawing.Size(65, 23);
             this.Button_Login.TabIndex = 3;
             this.Button_Login.Text = "Conectar";
-            this.Button_Login.UseVisualStyleBackColor = true;
+            this.Button_Login.UseVisualStyleBackColor = false;
+            this.Button_Login.Click += new System.EventHandler(this.Button_Login_Click);
             // 
             // TxtBox_UserID
             // 
@@ -93,12 +98,36 @@ namespace Marelli___Hour_by_Hour
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // Button_Cancelar
+            // 
+            this.Button_Cancelar.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Cancelar.Location = new System.Drawing.Point(139, 336);
+            this.Button_Cancelar.Name = "Button_Cancelar";
+            this.Button_Cancelar.Size = new System.Drawing.Size(65, 23);
+            this.Button_Cancelar.TabIndex = 4;
+            this.Button_Cancelar.Text = "Cancelar";
+            this.Button_Cancelar.UseVisualStyleBackColor = false;
+            this.Button_Cancelar.Click += new System.EventHandler(this.Button_Cancelar_Click);
+            // 
+            // Button_Cadastrar
+            // 
+            this.Button_Cadastrar.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Cadastrar.Location = new System.Drawing.Point(58, 380);
+            this.Button_Cadastrar.Name = "Button_Cadastrar";
+            this.Button_Cadastrar.Size = new System.Drawing.Size(146, 26);
+            this.Button_Cadastrar.TabIndex = 6;
+            this.Button_Cadastrar.Text = "Cadastrar";
+            this.Button_Cadastrar.UseVisualStyleBackColor = false;
+            this.Button_Cadastrar.Click += new System.EventHandler(this.Button_Cadastrar_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(260, 450);
+            this.Controls.Add(this.Button_Cadastrar);
+            this.Controls.Add(this.Button_Cancelar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TxtBox_Password);
             this.Controls.Add(this.TxtBox_UserID);
@@ -107,6 +136,7 @@ namespace Marelli___Hour_by_Hour
             this.Controls.Add(this.Lb_UserID);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -122,5 +152,7 @@ namespace Marelli___Hour_by_Hour
         private System.Windows.Forms.TextBox TxtBox_UserID;
         private System.Windows.Forms.TextBox TxtBox_Password;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Button_Cancelar;
+        private System.Windows.Forms.Button Button_Cadastrar;
     }
 }

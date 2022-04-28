@@ -8,19 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Marelli___Hour_by_Hour
+namespace Marelli___Hour_by_Hour.Viewer
 {
-    public partial class Home : Form
+    public partial class CadastroUser : Form
     {
-        public Home()
+        public CadastroUser()
         {
             InitializeComponent();
         }
 
-        private void Home_Load(object sender, EventArgs e)
-        {
-            Login ScrenLogin = new Login();
-            ScrenLogin.ShowDialog();
-        }
+   
     }
 }
