@@ -34,12 +34,12 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TxtBox_Password = new System.Windows.Forms.TextBox();
             this.TxtBox_UserID = new System.Windows.Forms.TextBox();
-            this.Button_Login = new System.Windows.Forms.Button();
+            this.Button_Cad = new System.Windows.Forms.Button();
             this.Lb_Password = new System.Windows.Forms.Label();
             this.Lb_UserID = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtBox_Turno = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtBox_Funcao = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +53,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.Button_Cancelar.TabIndex = 11;
             this.Button_Cancelar.Text = "Cancelar";
             this.Button_Cancelar.UseVisualStyleBackColor = false;
+            this.Button_Cancelar.Click += new System.EventHandler(this.Button_Cancelar_Click);
             // 
             // pictureBox1
             // 
@@ -81,16 +82,17 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.TxtBox_UserID.Size = new System.Drawing.Size(146, 23);
             this.TxtBox_UserID.TabIndex = 7;
             // 
-            // Button_Login
+            // Button_Cad
             // 
-            this.Button_Login.BackColor = System.Drawing.Color.Transparent;
-            this.Button_Login.ForeColor = System.Drawing.Color.Black;
-            this.Button_Login.Location = new System.Drawing.Point(56, 390);
-            this.Button_Login.Name = "Button_Login";
-            this.Button_Login.Size = new System.Drawing.Size(65, 23);
-            this.Button_Login.TabIndex = 10;
-            this.Button_Login.Text = "Conectar";
-            this.Button_Login.UseVisualStyleBackColor = false;
+            this.Button_Cad.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Cad.ForeColor = System.Drawing.Color.Black;
+            this.Button_Cad.Location = new System.Drawing.Point(56, 390);
+            this.Button_Cad.Name = "Button_Cad";
+            this.Button_Cad.Size = new System.Drawing.Size(65, 23);
+            this.Button_Cad.TabIndex = 10;
+            this.Button_Cad.Text = "Cadastrar";
+            this.Button_Cad.UseVisualStyleBackColor = false;
+            this.Button_Cad.Click += new System.EventHandler(this.Button_Cad_Click);
             // 
             // Lb_Password
             // 
@@ -110,14 +112,13 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.Lb_UserID.TabIndex = 6;
             this.Lb_UserID.Text = "User ID";
             // 
-            // textBox1
+            // TxtBox_Turno
             // 
-            this.textBox1.Location = new System.Drawing.Point(56, 259);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.PlaceholderText = " ";
-            this.textBox1.Size = new System.Drawing.Size(146, 23);
-            this.textBox1.TabIndex = 14;
+            this.TxtBox_Turno.Location = new System.Drawing.Point(56, 259);
+            this.TxtBox_Turno.Name = "TxtBox_Turno";
+            this.TxtBox_Turno.PlaceholderText = " ";
+            this.TxtBox_Turno.Size = new System.Drawing.Size(146, 23);
+            this.TxtBox_Turno.TabIndex = 14;
             // 
             // label1
             // 
@@ -128,14 +129,13 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.label1.TabIndex = 13;
             this.label1.Text = "Turno";
             // 
-            // textBox2
+            // TxtBox_Funcao
             // 
-            this.textBox2.Location = new System.Drawing.Point(56, 310);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.PlaceholderText = " ";
-            this.textBox2.Size = new System.Drawing.Size(146, 23);
-            this.textBox2.TabIndex = 16;
+            this.TxtBox_Funcao.Location = new System.Drawing.Point(56, 310);
+            this.TxtBox_Funcao.Name = "TxtBox_Funcao";
+            this.TxtBox_Funcao.PlaceholderText = " ";
+            this.TxtBox_Funcao.Size = new System.Drawing.Size(146, 23);
+            this.TxtBox_Funcao.TabIndex = 16;
             // 
             // label2
             // 
@@ -153,14 +153,14 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(264, 450);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtBox_Funcao);
+            this.Controls.Add(this.TxtBox_Turno);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Button_Cancelar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TxtBox_Password);
             this.Controls.Add(this.TxtBox_UserID);
-            this.Controls.Add(this.Button_Login);
+            this.Controls.Add(this.Button_Cad);
             this.Controls.Add(this.Lb_Password);
             this.Controls.Add(this.Lb_UserID);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -179,12 +179,12 @@ namespace Marelli___Hour_by_Hour.Viewer
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox TxtBox_Password;
         private System.Windows.Forms.TextBox TxtBox_UserID;
-        private System.Windows.Forms.Button Button_Login;
+        private System.Windows.Forms.Button Button_Cad;
         private System.Windows.Forms.Label Lb_Password;
         private System.Windows.Forms.Label Lb_UserID;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtBox_Turno;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtBox_Funcao;
         private System.Windows.Forms.Label label2;
     }
 }

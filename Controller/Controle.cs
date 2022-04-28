@@ -31,6 +31,12 @@ namespace Marelli___Hour_by_Hour.Controller
 
         public string Cadastro(String Id, String Senha, String Turno, String Funcao)
         {
+            LoginDaoComandos LoginDao = new LoginDaoComandos();
+            this.Mensagem = LoginDao.Cadastro(Id, Senha, Turno, Funcao);
+            if (LoginDao.ExistNoBanco)
+            {
+                this.ExistNoBanco = true;
+            }
             return Mensagem; 
         }
     }

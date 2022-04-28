@@ -27,6 +27,8 @@ namespace Marelli___Hour_by_Hour.Model
                 {
                     ExistNoBanco = true;
                 }
+                con.desconect();
+                dr.Close();
             }
             catch (SqlException e)
             {
@@ -39,6 +41,25 @@ namespace Marelli___Hour_by_Hour.Model
 
         public string Cadastro(String Id, String Senha, String Turno, String Funcao)
         {
+            ExistNoBanco = false;
+            cmd.CommandText ="INSERT INTO [dbo].[Tb_Users] VALUES( @Login,@Senha,@Turno,@Funcao)";
+            cmd.Parameters.AddWithValue("@Login", Id);
+            cmd.Parameters.AddWithValue("@Senha", Senha);
+            cmd.Parameters.AddWithValue("@Turno", Turno);
+            cmd.Parameters.AddWithValue("@Funcao", Funcao);
+            try
+            {
+                 cmd.Connection = con.Conectar();
+                 cmd.ExecuteNonQuery();
+                 con.desconect();
+                 this.Mensagem = "Usuario " + Id + " Cadastrado com Sucesso";
+                 ExistNoBanco = true;
+            }
+            catch (SqlException e)
+            {
+
+                this.Mensagem = "Erro com o banco de dados " + e;
+            }
             return Mensagem;
         }
     }
