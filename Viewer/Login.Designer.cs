@@ -149,10 +149,10 @@ namespace Marelli___Hour_by_Hour
         private System.Windows.Forms.Label Lb_UserID;
         private System.Windows.Forms.Label Lb_Password;
         private System.Windows.Forms.Button Button_Login;
-        private System.Windows.Forms.TextBox TxtBox_UserID;
         private System.Windows.Forms.TextBox TxtBox_Password;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Button_Cancelar;
         private System.Windows.Forms.Button Button_Cadastrar;
+        public System.Windows.Forms.TextBox TxtBox_UserID;
     }
 }

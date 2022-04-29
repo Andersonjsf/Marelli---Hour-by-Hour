@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Marelli___Hour_by_Hour.Model;
+using System.Data.SqlClient;
 
 namespace Marelli___Hour_by_Hour.Controller
 {
@@ -12,6 +13,9 @@ namespace Marelli___Hour_by_Hour.Controller
 
         public bool ExistNoBanco;
         public string Mensagem = "";
+        
+
+        LoginDaoComandos LoginDao = new LoginDaoComandos();
 
 
         public bool Acess(String Login, String senha)
@@ -19,19 +23,17 @@ namespace Marelli___Hour_by_Hour.Controller
             LoginDaoComandos LoginDao = new LoginDaoComandos();
             ExistNoBanco = LoginDao.VerificarLogin(Login, senha);
 
-            if(!LoginDao.Mensagem.Equals(""))
+            if (!LoginDao.Mensagem.Equals(""))
             {
                 this.Mensagem = LoginDao.Mensagem;
+                
             }
-
+            
             return ExistNoBanco;
         }
 
-
-
         public string Cadastro(String Id, String Senha, String Turno, String Funcao)
         {
-            LoginDaoComandos LoginDao = new LoginDaoComandos();
             this.Mensagem = LoginDao.Cadastro(Id, Senha, Turno, Funcao);
             if (LoginDao.ExistNoBanco)
             {
@@ -39,5 +41,16 @@ namespace Marelli___Hour_by_Hour.Controller
             }
             return Mensagem; 
         }
+
+
+        public List<string> GetInformacoes(string Id)
+        {
+            LoginDaoComandos LoginDao = new LoginDaoComandos();
+            var Infos = LoginDao.GetInfo(Id);
+            return Infos;
+        }
+       
+
+  
     }
 }
