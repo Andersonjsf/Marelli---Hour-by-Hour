@@ -36,9 +36,21 @@ namespace Marelli___Hour_by_Hour
             this.ComboBox_Turno = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.GrupoWellcome = new System.Windows.Forms.GroupBox();
+            this.Lb_OperadorNome = new System.Windows.Forms.Label();
+            this.Lb_Operador = new System.Windows.Forms.Label();
             this.Lb_DateToday = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.GroupTurno_Manha = new System.Windows.Forms.GroupBox();
+            this.TxtBox_HoraFim1_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio1_Manha = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar1_Manha = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.TxtBox_Tempo1_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento1_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho1_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao1_Manha = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao1_Manha = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod1_Manha = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -63,6 +75,7 @@ namespace Marelli___Hour_by_Hour
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GrupoWellcome.SuspendLayout();
             this.GroupTurno_Manha.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -104,7 +117,7 @@ namespace Marelli___Hour_by_Hour
             "Manhã",
             "Tarde",
             "Noite"});
-            this.ComboBox_Turno.Location = new System.Drawing.Point(147, 52);
+            this.ComboBox_Turno.Location = new System.Drawing.Point(149, 77);
             this.ComboBox_Turno.Name = "ComboBox_Turno";
             this.ComboBox_Turno.Size = new System.Drawing.Size(147, 23);
             this.ComboBox_Turno.TabIndex = 3;
@@ -114,7 +127,7 @@ namespace Marelli___Hour_by_Hour
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(10, 52);
+            this.label2.Location = new System.Drawing.Point(12, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 21);
             this.label2.TabIndex = 4;
@@ -123,6 +136,8 @@ namespace Marelli___Hour_by_Hour
             // GrupoWellcome
             // 
             this.GrupoWellcome.AutoSize = true;
+            this.GrupoWellcome.Controls.Add(this.Lb_OperadorNome);
+            this.GrupoWellcome.Controls.Add(this.Lb_Operador);
             this.GrupoWellcome.Controls.Add(this.Lb_DateToday);
             this.GrupoWellcome.Controls.Add(this.label23);
             this.GrupoWellcome.Controls.Add(this.ComboBox_Turno);
@@ -134,11 +149,31 @@ namespace Marelli___Hour_by_Hour
             this.GrupoWellcome.TabStop = false;
             this.GrupoWellcome.Text = "Bem vindo ao HBH";
             // 
+            // Lb_OperadorNome
+            // 
+            this.Lb_OperadorNome.AutoSize = true;
+            this.Lb_OperadorNome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Lb_OperadorNome.Location = new System.Drawing.Point(98, 42);
+            this.Lb_OperadorNome.Name = "Lb_OperadorNome";
+            this.Lb_OperadorNome.Size = new System.Drawing.Size(77, 21);
+            this.Lb_OperadorNome.TabIndex = 8;
+            this.Lb_OperadorNome.Text = "Operador";
+            // 
+            // Lb_Operador
+            // 
+            this.Lb_Operador.AutoSize = true;
+            this.Lb_Operador.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Lb_Operador.Location = new System.Drawing.Point(12, 42);
+            this.Lb_Operador.Name = "Lb_Operador";
+            this.Lb_Operador.Size = new System.Drawing.Size(80, 21);
+            this.Lb_Operador.TabIndex = 7;
+            this.Lb_Operador.Text = "Operador:";
+            // 
             // Lb_DateToday
             // 
             this.Lb_DateToday.AutoSize = true;
             this.Lb_DateToday.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Lb_DateToday.Location = new System.Drawing.Point(99, 93);
+            this.Lb_DateToday.Location = new System.Drawing.Point(101, 118);
             this.Lb_DateToday.Name = "Lb_DateToday";
             this.Lb_DateToday.Size = new System.Drawing.Size(94, 21);
             this.Lb_DateToday.TabIndex = 6;
@@ -148,7 +183,7 @@ namespace Marelli___Hour_by_Hour
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label23.Location = new System.Drawing.Point(10, 93);
+            this.label23.Location = new System.Drawing.Point(12, 118);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(83, 21);
             this.label23.TabIndex = 5;
@@ -157,6 +192,16 @@ namespace Marelli___Hour_by_Hour
             // GroupTurno_Manha
             // 
             this.GroupTurno_Manha.AutoSize = true;
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraFim1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraIncio1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.ButtonSalvar1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.pictureBox2);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Tempo1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Equipamento1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Retrabalho1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Producao1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.CBBox_Descricao1_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.CBBox_Cod1_Manha);
             this.GroupTurno_Manha.Controls.Add(this.label22);
             this.GroupTurno_Manha.Controls.Add(this.label21);
             this.GroupTurno_Manha.Controls.Add(this.label20);
@@ -184,6 +229,90 @@ namespace Marelli___Hour_by_Hour
             this.GroupTurno_Manha.TabIndex = 6;
             this.GroupTurno_Manha.TabStop = false;
             this.GroupTurno_Manha.Text = "Turno - Manhã";
+            // 
+            // TxtBox_HoraFim1_Manha
+            // 
+            this.TxtBox_HoraFim1_Manha.Location = new System.Drawing.Point(126, 78);
+            this.TxtBox_HoraFim1_Manha.Name = "TxtBox_HoraFim1_Manha";
+            this.TxtBox_HoraFim1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim1_Manha.TabIndex = 30;
+            this.TxtBox_HoraFim1_Manha.Text = "09:00";
+            this.TxtBox_HoraFim1_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio1_Manha
+            // 
+            this.TxtBox_HoraIncio1_Manha.Location = new System.Drawing.Point(12, 78);
+            this.TxtBox_HoraIncio1_Manha.Name = "TxtBox_HoraIncio1_Manha";
+            this.TxtBox_HoraIncio1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio1_Manha.TabIndex = 29;
+            this.TxtBox_HoraIncio1_Manha.Text = "08:00";
+            this.TxtBox_HoraIncio1_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar1_Manha
+            // 
+            this.ButtonSalvar1_Manha.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar1_Manha.Location = new System.Drawing.Point(964, 77);
+            this.ButtonSalvar1_Manha.Name = "ButtonSalvar1_Manha";
+            this.ButtonSalvar1_Manha.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar1_Manha.TabIndex = 28;
+            this.ButtonSalvar1_Manha.Text = "Salvar";
+            this.ButtonSalvar1_Manha.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(439, 56);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            // 
+            // TxtBox_Tempo1_Manha
+            // 
+            this.TxtBox_Tempo1_Manha.Location = new System.Drawing.Point(860, 78);
+            this.TxtBox_Tempo1_Manha.Name = "TxtBox_Tempo1_Manha";
+            this.TxtBox_Tempo1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo1_Manha.TabIndex = 26;
+            // 
+            // TxtBox_Equipamento1_Manha
+            // 
+            this.TxtBox_Equipamento1_Manha.Location = new System.Drawing.Point(727, 78);
+            this.TxtBox_Equipamento1_Manha.Name = "TxtBox_Equipamento1_Manha";
+            this.TxtBox_Equipamento1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento1_Manha.TabIndex = 25;
+            // 
+            // TxtBox_Retrabalho1_Manha
+            // 
+            this.TxtBox_Retrabalho1_Manha.Location = new System.Drawing.Point(606, 78);
+            this.TxtBox_Retrabalho1_Manha.Name = "TxtBox_Retrabalho1_Manha";
+            this.TxtBox_Retrabalho1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho1_Manha.TabIndex = 24;
+            // 
+            // TxtBox_Producao1_Manha
+            // 
+            this.TxtBox_Producao1_Manha.Location = new System.Drawing.Point(494, 78);
+            this.TxtBox_Producao1_Manha.Name = "TxtBox_Producao1_Manha";
+            this.TxtBox_Producao1_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao1_Manha.TabIndex = 23;
+            // 
+            // CBBox_Descricao1_Manha
+            // 
+            this.CBBox_Descricao1_Manha.FormattingEnabled = true;
+            this.CBBox_Descricao1_Manha.Location = new System.Drawing.Point(302, 78);
+            this.CBBox_Descricao1_Manha.Name = "CBBox_Descricao1_Manha";
+            this.CBBox_Descricao1_Manha.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao1_Manha.TabIndex = 22;
+            this.CBBox_Descricao1_Manha.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao1_Manha_SelectedIndexChanged);
+            // 
+            // CBBox_Cod1_Manha
+            // 
+            this.CBBox_Cod1_Manha.FormattingEnabled = true;
+            this.CBBox_Cod1_Manha.Location = new System.Drawing.Point(257, 78);
+            this.CBBox_Cod1_Manha.Name = "CBBox_Cod1_Manha";
+            this.CBBox_Cod1_Manha.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod1_Manha.TabIndex = 21;
+            this.CBBox_Cod1_Manha.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod1_Manha_SelectedIndexChanged);
             // 
             // label22
             // 
@@ -224,7 +353,7 @@ namespace Marelli___Hour_by_Hour
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(279, 56);
+            this.label26.Location = new System.Drawing.Point(257, 56);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(163, 15);
             this.label26.TabIndex = 16;
@@ -395,6 +524,7 @@ namespace Marelli___Hour_by_Hour
             this.GrupoWellcome.PerformLayout();
             this.GroupTurno_Manha.ResumeLayout(false);
             this.GroupTurno_Manha.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,6 +562,18 @@ namespace Marelli___Hour_by_Hour
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label Lb_DateToday;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.ComboBox CBBox_Descricao1_Manha;
+        private System.Windows.Forms.ComboBox CBBox_Cod1_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Tempo1_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento1_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho1_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Producao1_Manha;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button ButtonSalvar1_Manha;
+        private System.Windows.Forms.Label Lb_OperadorNome;
+        private System.Windows.Forms.Label Lb_Operador;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim1_Manha;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio1_Manha;
     }
 }
 

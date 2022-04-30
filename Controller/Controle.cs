@@ -7,6 +7,7 @@ using Marelli___Hour_by_Hour.Model;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.IO;
+using System.Data;
 
 namespace Marelli___Hour_by_Hour.Controller
 
@@ -61,6 +62,12 @@ namespace Marelli___Hour_by_Hour.Controller
         }
 
       
+      public DataTable ListaMotivoParada()
+        {
+            var MotivoParada = LoginDao.ListaMotivoParada();
+
+            return MotivoParada;
+        }
 
     }
 

@@ -15,6 +15,7 @@ namespace Marelli___Hour_by_Hour
     public partial class Home : Form
     {
         List<string> InformacoesUser;
+        Controle control = new Controle();
 
 
         public Home()
@@ -27,14 +28,19 @@ namespace Marelli___Hour_by_Hour
         {
             this.Visible = false;
             Login LoginScreen = new Login();
-            Controle Control = new Controle();
+           
 
             LoginScreen.ShowDialog();
             this.Visible = true;
-            Lb_user.Text = "-  Usuário " + LoginScreen.TxtBox_UserID.Text;
+            InformacoesUser = control.GetInformacoes(LoginScreen.TxtBox_UserID.Text);
+            Lb_user.Text = "-  Usuário " + InformacoesUser[1]; 
             
-            InformacoesUser = Control.GetInformacoes(LoginScreen.TxtBox_UserID.Text);
+           
             Lb_DateToday.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            Lb_OperadorNome.Text = InformacoesUser[0];
+
+
+            
         }
 
         private void ComboBox_Turno_SelectedIndexChanged(object sender, EventArgs e)
@@ -47,8 +53,70 @@ namespace Marelli___Hour_by_Hour
                 {
                     ComboBox_Turno.Text = "";
                 }
+               
+            }
+            AlimentaMotivoParada(turno);
+
+        }
+
+       
+       
+        private void CBBox_Cod1_Manha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CBBox_Cod1_Manha.SelectedIndex == 0)
+            {
+                // CBBox_Descricao1_Manha.SelectedIndex = 1;
+            }
+            else
+            {
+                CBBox_Descricao1_Manha.SelectedIndex = CBBox_Cod1_Manha.SelectedIndex;
+
             }
 
+
+        }
+
+        private void CBBox_Descricao1_Manha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CBBox_Descricao1_Manha.SelectedIndex == 0)
+            {
+                // CBBox_Descricao1_Manha.SelectedIndex = 1;
+            }
+            else
+            {
+                CBBox_Cod1_Manha.SelectedIndex = CBBox_Descricao1_Manha.SelectedIndex;
+
+            }
+
+        }
+
+
+
+
+
+
+        public void AlimentaMotivoParada(string Turno)
+        {
+
+            switch (Turno)
+            {
+                case "Manhã":
+                
+                    CBBox_Cod1_Manha.DataSource = control.ListaMotivoParada();
+                    CBBox_Cod1_Manha.DisplayMember = "Cod";
+                    CBBox_Cod1_Manha.ValueMember = "Cod";
+                    CBBox_Descricao1_Manha.DataSource = control.ListaMotivoParada();
+                    CBBox_Descricao1_Manha.DisplayMember = "Descricao";
+                    CBBox_Descricao1_Manha.ValueMember = "Descricao";
+                    break;
+
+                    //   case "Tarde":
+                    //       CBBox_Cod1_Manha.Items.Clear();
+                    //     CBBox_Cod2_Manha.DataSource = control.ListaMotivoParada();
+                    //       CBBox_Cod3_Manha.DisplayMember = "Cod";
+                    //      CBBox_Cod4_Manha.ValueMember = "Cod";
+                    //       break;
+            }
         }
 
        

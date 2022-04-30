@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
@@ -84,14 +85,14 @@ namespace Marelli___Hour_by_Hour.Model
                 {
                     foreach (DbDataRecord s in r)
                     {
-                       
-                       
-                        string User = s.GetString(1).ToString().Trim();
+                        string FullName = s.GetString(1).ToString().Trim();
+                        InfosUser.Add(FullName);
+
+                        string User = s.GetString(2).ToString().Trim();
                         InfosUser.Add(User);
-                        string Turno = s.GetString(2).ToString().Trim();
+
+                        string Turno = s.GetString(4).ToString().Trim();
                         InfosUser.Add(Turno);
-                        string Func = s.GetString(3).ToString().Trim();
-                        InfosUser.Add(Func);
                     }
                     r.Close();
                 }
@@ -108,6 +109,128 @@ namespace Marelli___Hour_by_Hour.Model
             return InfosUser;
         }
 
+        public List<string> VerificarRegistros(string IdRegistro, string Data)
+        {
+            List<string> Registros = new List<string>();
+            cmd.CommandText = "Select * From Tb_HistoricoRegistro where UserID = @DataRegistro AND Id = @IdRegistro";
+            cmd.Parameters.AddWithValue("@DataRegistro", Data);
+            cmd.Parameters.AddWithValue("@IdRegistro", IdRegistro);
+            try
+            {
+                cmd.Connection = con.Conectar();
+                using (var r = cmd.ExecuteReader())
+                {
+                    foreach (DbDataRecord s in r)
+                    {
+                        string DataRegistro = s.GetString(0).ToString().Trim();
+                        Registros.Add(DataRegistro);
+                        string Id = s.GetString(1).ToString().Trim();
+                        Registros.Add(Id);
+                        string HoraInicio = s.GetString(0).ToString().Trim();
+                        Registros.Add(HoraInicio);
+                        string HoraFim = s.GetString(0).ToString().Trim();
+                        Registros.Add(HoraFim);
+                        string CodParada = s.GetString(0).ToString().Trim();
+                        Registros.Add(CodParada);
+                        string DescricaoParada = s.GetString(0).ToString().Trim();
+                        Registros.Add(DescricaoParada);
+                        string Producao = s.GetString(0).ToString().Trim();
+                        Registros.Add(Producao);
+                        string Retrabalho = s.GetString(0).ToString().Trim();
+                        Registros.Add(Retrabalho);
+                        string Equipamento = s.GetString(0).ToString().Trim();
+                        Registros.Add(Equipamento);
+                        string Tempo = s.GetString(0).ToString().Trim();
+                        Registros.Add(Tempo);
+                    }
+                    r.Close();
+                }
+
+                con.desconect();
+
+            }
+            catch (SqlException e)
+            {
+
+                this.Mensagem = "Erro com o banco de dados " + e;
+            }
+
+            return Registros;
+        }
+
+        public string GravaRegistro(List<string> InfosRegistar)
+        {
+                ExistNoBanco = false;
+                string DataRegistro = InfosRegistar[0].Trim();
+                string Id = InfosRegistar[1].Trim();
+                string HoraInicio = InfosRegistar[2].Trim();
+                string HoraFim = InfosRegistar[3].Trim();
+                string CodParada = InfosRegistar[4].Trim();
+                string DescricaoParada = InfosRegistar[5].Trim();
+                string Producao = InfosRegistar[6].Trim();
+                string Retrabalho = InfosRegistar[7].Trim();
+                string Equipamento = InfosRegistar[8].Trim();
+                string Tempo = InfosRegistar[9].Trim();
+
+
+                cmd.CommandText = "INSERT INTO [dbo].[Tb_HistoricoRegistro] VALUES( @DataRegistro, @Id, @HoraInicio, @HoraFim, @CodParada ,@DescricaoParada, @Producao, @Retrabalho, @Equipamento, @Tempo)";
+                cmd.Parameters.AddWithValue("@DataRegistro", DataRegistro);
+                cmd.Parameters.AddWithValue("@Id", Id);
+                cmd.Parameters.AddWithValue("@HoraInicio", HoraInicio);
+                cmd.Parameters.AddWithValue("@HoraFim", HoraFim);
+                cmd.Parameters.AddWithValue("@CodParada", CodParada);
+                cmd.Parameters.AddWithValue("@DescricaoParada", DescricaoParada);
+                cmd.Parameters.AddWithValue("@Producao", Producao);
+                cmd.Parameters.AddWithValue("@Retrabalho", Retrabalho);
+                cmd.Parameters.AddWithValue("@Equipamento", Equipamento);
+                cmd.Parameters.AddWithValue("@Tempo", Tempo);
+            try
+            {
+                cmd.Connection = con.Conectar();
+                cmd.ExecuteNonQuery();
+                con.desconect();
+                this.Mensagem = "Registros adicionados com sucesso.";
+                ExistNoBanco = true;
+            }
+            catch (SqlException e)
+            {
+
+                this.Mensagem = "Erro com o banco de dados " + e;
+            }
+            return Mensagem;
+        }
+
+        public DataTable ListaMotivoParada()
+        {
+            DataTable MotivoParada = new DataTable();
+
+            cmd.CommandText = "Select * From [Tb_MotivoParada]";
+
+            try
+            {
+                cmd.Connection = con.Conectar();
+                dr = cmd.ExecuteReader();
+           //     dr.Read();
+                if (dr.HasRows)
+                {
+                    MotivoParada.Load(dr);
+               
+                }
+                con.desconect();
+                dr.Close();
+            }
+            catch (SqlException e)
+            {
+
+                this.Mensagem = "Erro com o banco de dados " + e;
+            }
+            return MotivoParada;
+        }
+
+           
+        }
+
+
     }
-}
+
 
