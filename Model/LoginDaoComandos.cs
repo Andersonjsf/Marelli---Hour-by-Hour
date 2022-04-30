@@ -35,6 +35,7 @@ namespace Marelli___Hour_by_Hour.Model
                 }
                 con.desconect();
                 dr.Close();
+                cmd.Dispose();
             }
             catch (SqlException e)
             {
@@ -58,7 +59,8 @@ namespace Marelli___Hour_by_Hour.Model
                  cmd.Connection = con.Conectar();
                  cmd.ExecuteNonQuery();
                  con.desconect();
-                 this.Mensagem = "Usuario " + Id + " Cadastrado com Sucesso";
+              
+                this.Mensagem = "Usuario " + Id + " Cadastrado com Sucesso";
                  ExistNoBanco = true;
             }
             catch (SqlException e)
@@ -96,7 +98,7 @@ namespace Marelli___Hour_by_Hour.Model
                     }
                     r.Close();
                 }
-
+                cmd.Dispose();
                 con.desconect();
               
             }
@@ -109,59 +111,40 @@ namespace Marelli___Hour_by_Hour.Model
             return InfosUser;
         }
 
-        public List<string> VerificarRegistros(string IdRegistro, string Data)
+        public DataTable VerificarRegistros(string IdRegistro, string Data, string Turno)
         {
-            List<string> Registros = new List<string>();
-            cmd.CommandText = "Select * From Tb_HistoricoRegistro where UserID = @DataRegistro AND Id = @IdRegistro";
+            DataTable Registros = new DataTable();
+            cmd.CommandText = "SELECT * FROM Tb_HistoricoRegistro WHERE DataRegistro = @DataRegistro AND Id = @IdRegistro AND Turno = @Turno";
             cmd.Parameters.AddWithValue("@DataRegistro", Data);
             cmd.Parameters.AddWithValue("@IdRegistro", IdRegistro);
+            cmd.Parameters.AddWithValue("@Turno", Turno);
+
             try
             {
                 cmd.Connection = con.Conectar();
-                using (var r = cmd.ExecuteReader())
+                dr = cmd.ExecuteReader();
+                if (dr.HasRows)
                 {
-                    foreach (DbDataRecord s in r)
-                    {
-                        string DataRegistro = s.GetString(0).ToString().Trim();
-                        Registros.Add(DataRegistro);
-                        string Id = s.GetString(1).ToString().Trim();
-                        Registros.Add(Id);
-                        string HoraInicio = s.GetString(0).ToString().Trim();
-                        Registros.Add(HoraInicio);
-                        string HoraFim = s.GetString(0).ToString().Trim();
-                        Registros.Add(HoraFim);
-                        string CodParada = s.GetString(0).ToString().Trim();
-                        Registros.Add(CodParada);
-                        string DescricaoParada = s.GetString(0).ToString().Trim();
-                        Registros.Add(DescricaoParada);
-                        string Producao = s.GetString(0).ToString().Trim();
-                        Registros.Add(Producao);
-                        string Retrabalho = s.GetString(0).ToString().Trim();
-                        Registros.Add(Retrabalho);
-                        string Equipamento = s.GetString(0).ToString().Trim();
-                        Registros.Add(Equipamento);
-                        string Tempo = s.GetString(0).ToString().Trim();
-                        Registros.Add(Tempo);
-                    }
-                    r.Close();
+                    Registros.Load(dr);
+
                 }
-
+                cmd.Parameters.Clear();
+                cmd.Dispose();
                 con.desconect();
-
+                dr.Close();
             }
             catch (SqlException e)
             {
 
                 this.Mensagem = "Erro com o banco de dados " + e;
             }
-
             return Registros;
         }
 
         public string GravaRegistro(List<string> InfosRegistar)
         {
                 ExistNoBanco = false;
-                string DataRegistro = InfosRegistar[0].Trim();
+                string DtRegistro = InfosRegistar[0].Trim();
                 string Id = InfosRegistar[1].Trim();
                 string HoraInicio = InfosRegistar[2].Trim();
                 string HoraFim = InfosRegistar[3].Trim();
@@ -171,10 +154,11 @@ namespace Marelli___Hour_by_Hour.Model
                 string Retrabalho = InfosRegistar[7].Trim();
                 string Equipamento = InfosRegistar[8].Trim();
                 string Tempo = InfosRegistar[9].Trim();
+                string Turno = InfosRegistar[10].Trim();
 
 
-                cmd.CommandText = "INSERT INTO [dbo].[Tb_HistoricoRegistro] VALUES( @DataRegistro, @Id, @HoraInicio, @HoraFim, @CodParada ,@DescricaoParada, @Producao, @Retrabalho, @Equipamento, @Tempo)";
-                cmd.Parameters.AddWithValue("@DataRegistro", DataRegistro);
+                cmd.CommandText = "INSERT INTO [dbo].[Tb_HistoricoRegistro] VALUES( @DtaRegistro, @Id, @HoraInicio, @HoraFim, @CodParada ,@DescricaoParada, @Producao, @Retrabalho, @Equipamento, @Tempo, @Turno)";
+                cmd.Parameters.AddWithValue("@DtaRegistro", DtRegistro);
                 cmd.Parameters.AddWithValue("@Id", Id);
                 cmd.Parameters.AddWithValue("@HoraInicio", HoraInicio);
                 cmd.Parameters.AddWithValue("@HoraFim", HoraFim);
@@ -184,11 +168,13 @@ namespace Marelli___Hour_by_Hour.Model
                 cmd.Parameters.AddWithValue("@Retrabalho", Retrabalho);
                 cmd.Parameters.AddWithValue("@Equipamento", Equipamento);
                 cmd.Parameters.AddWithValue("@Tempo", Tempo);
+                cmd.Parameters.AddWithValue("@Turno", Turno);
             try
             {
                 cmd.Connection = con.Conectar();
                 cmd.ExecuteNonQuery();
                 con.desconect();
+                cmd.Parameters.Clear();
                 this.Mensagem = "Registros adicionados com sucesso.";
                 ExistNoBanco = true;
             }
@@ -210,12 +196,12 @@ namespace Marelli___Hour_by_Hour.Model
             {
                 cmd.Connection = con.Conectar();
                 dr = cmd.ExecuteReader();
-           //     dr.Read();
                 if (dr.HasRows)
                 {
                     MotivoParada.Load(dr);
                
                 }
+                cmd.Dispose();
                 con.desconect();
                 dr.Close();
             }

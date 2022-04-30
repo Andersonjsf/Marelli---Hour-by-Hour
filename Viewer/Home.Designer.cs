@@ -257,6 +257,7 @@ namespace Marelli___Hour_by_Hour
             this.ButtonSalvar1_Manha.TabIndex = 28;
             this.ButtonSalvar1_Manha.Text = "Salvar";
             this.ButtonSalvar1_Manha.UseVisualStyleBackColor = false;
+            this.ButtonSalvar1_Manha.Click += new System.EventHandler(this.ButtonSalvar1_Manha_Click);
             // 
             // pictureBox2
             // 

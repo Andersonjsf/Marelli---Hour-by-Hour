@@ -69,6 +69,27 @@ namespace Marelli___Hour_by_Hour.Controller
             return MotivoParada;
         }
 
+
+        public string GravaRegistro(List<string> InfosRegistar)
+        {
+            var ResultadoInsert = LoginDao.GravaRegistro(InfosRegistar);
+
+            return ResultadoInsert;
+        }
+
+        public DataTable VerificarReg(string IdRegistro, string Data, string Turno)
+        {
+
+            var Registro = LoginDao.VerificarRegistros(IdRegistro, Data, Turno);
+
+           return Registro;
+
+
+
+        }
+
+
+
     }
 
 }
