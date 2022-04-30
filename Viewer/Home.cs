@@ -20,17 +20,21 @@ namespace Marelli___Hour_by_Hour
         public Home()
         {
             InitializeComponent();
+          
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
             this.Visible = false;
             Login LoginScreen = new Login();
+            Controle Control = new Controle();
+
             LoginScreen.ShowDialog();
             this.Visible = true;
             Lb_user.Text = "-  Usuário " + LoginScreen.TxtBox_UserID.Text;
-            Controle Control = new Controle();
+            
             InformacoesUser = Control.GetInformacoes(LoginScreen.TxtBox_UserID.Text);
+            Lb_DateToday.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
         private void ComboBox_Turno_SelectedIndexChanged(object sender, EventArgs e)
@@ -46,5 +50,7 @@ namespace Marelli___Hour_by_Hour
             }
 
         }
+
+       
     }
 }
