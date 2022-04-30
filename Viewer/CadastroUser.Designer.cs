@@ -39,8 +39,8 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.Lb_UserID = new System.Windows.Forms.Label();
             this.TxtBox_Turno = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.TxtBox_Funcao = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.TxtBox_NomeCompleto = new System.Windows.Forms.TextBox();
+            this.Lb_nomecompleto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.Button_Cancelar.Location = new System.Drawing.Point(137, 390);
             this.Button_Cancelar.Name = "Button_Cancelar";
             this.Button_Cancelar.Size = new System.Drawing.Size(65, 23);
-            this.Button_Cancelar.TabIndex = 11;
+            this.Button_Cancelar.TabIndex = 6;
             this.Button_Cancelar.Text = "Cancelar";
             this.Button_Cancelar.UseVisualStyleBackColor = false;
             this.Button_Cancelar.Click += new System.EventHandler(this.Button_Cancelar_Click);
@@ -67,20 +67,20 @@ namespace Marelli___Hour_by_Hour.Viewer
             // 
             // TxtBox_Password
             // 
-            this.TxtBox_Password.Location = new System.Drawing.Point(56, 210);
+            this.TxtBox_Password.Location = new System.Drawing.Point(56, 275);
             this.TxtBox_Password.Name = "TxtBox_Password";
             this.TxtBox_Password.PasswordChar = '*';
             this.TxtBox_Password.PlaceholderText = " ";
             this.TxtBox_Password.Size = new System.Drawing.Size(146, 23);
-            this.TxtBox_Password.TabIndex = 9;
+            this.TxtBox_Password.TabIndex = 3;
             // 
             // TxtBox_UserID
             // 
-            this.TxtBox_UserID.Location = new System.Drawing.Point(56, 163);
+            this.TxtBox_UserID.Location = new System.Drawing.Point(56, 228);
             this.TxtBox_UserID.Name = "TxtBox_UserID";
             this.TxtBox_UserID.PlaceholderText = " ";
             this.TxtBox_UserID.Size = new System.Drawing.Size(146, 23);
-            this.TxtBox_UserID.TabIndex = 7;
+            this.TxtBox_UserID.TabIndex = 2;
             // 
             // Button_Cad
             // 
@@ -89,7 +89,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.Button_Cad.Location = new System.Drawing.Point(56, 390);
             this.Button_Cad.Name = "Button_Cad";
             this.Button_Cad.Size = new System.Drawing.Size(65, 23);
-            this.Button_Cad.TabIndex = 10;
+            this.Button_Cad.TabIndex = 5;
             this.Button_Cad.Text = "Cadastrar";
             this.Button_Cad.UseVisualStyleBackColor = false;
             this.Button_Cad.Click += new System.EventHandler(this.Button_Cad_Click);
@@ -97,7 +97,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             // Lb_Password
             // 
             this.Lb_Password.AutoSize = true;
-            this.Lb_Password.Location = new System.Drawing.Point(56, 192);
+            this.Lb_Password.Location = new System.Drawing.Point(56, 257);
             this.Lb_Password.Name = "Lb_Password";
             this.Lb_Password.Size = new System.Drawing.Size(57, 15);
             this.Lb_Password.TabIndex = 8;
@@ -106,7 +106,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             // Lb_UserID
             // 
             this.Lb_UserID.AutoSize = true;
-            this.Lb_UserID.Location = new System.Drawing.Point(56, 145);
+            this.Lb_UserID.Location = new System.Drawing.Point(56, 210);
             this.Lb_UserID.Name = "Lb_UserID";
             this.Lb_UserID.Size = new System.Drawing.Size(44, 15);
             this.Lb_UserID.TabIndex = 6;
@@ -114,37 +114,37 @@ namespace Marelli___Hour_by_Hour.Viewer
             // 
             // TxtBox_Turno
             // 
-            this.TxtBox_Turno.Location = new System.Drawing.Point(56, 259);
+            this.TxtBox_Turno.Location = new System.Drawing.Point(56, 324);
             this.TxtBox_Turno.Name = "TxtBox_Turno";
             this.TxtBox_Turno.PlaceholderText = " ";
             this.TxtBox_Turno.Size = new System.Drawing.Size(146, 23);
-            this.TxtBox_Turno.TabIndex = 14;
+            this.TxtBox_Turno.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 241);
+            this.label1.Location = new System.Drawing.Point(56, 306);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 13;
             this.label1.Text = "Turno";
             // 
-            // TxtBox_Funcao
+            // TxtBox_NomeCompleto
             // 
-            this.TxtBox_Funcao.Location = new System.Drawing.Point(56, 310);
-            this.TxtBox_Funcao.Name = "TxtBox_Funcao";
-            this.TxtBox_Funcao.PlaceholderText = " ";
-            this.TxtBox_Funcao.Size = new System.Drawing.Size(146, 23);
-            this.TxtBox_Funcao.TabIndex = 16;
+            this.TxtBox_NomeCompleto.Location = new System.Drawing.Point(56, 184);
+            this.TxtBox_NomeCompleto.Name = "TxtBox_NomeCompleto";
+            this.TxtBox_NomeCompleto.PlaceholderText = " ";
+            this.TxtBox_NomeCompleto.Size = new System.Drawing.Size(146, 23);
+            this.TxtBox_NomeCompleto.TabIndex = 1;
             // 
-            // label2
+            // Lb_nomecompleto
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 292);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 15);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Funçao";
+            this.Lb_nomecompleto.AutoSize = true;
+            this.Lb_nomecompleto.Location = new System.Drawing.Point(56, 166);
+            this.Lb_nomecompleto.Name = "Lb_nomecompleto";
+            this.Lb_nomecompleto.Size = new System.Drawing.Size(94, 15);
+            this.Lb_nomecompleto.TabIndex = 17;
+            this.Lb_nomecompleto.Text = "Nome completo";
             // 
             // CadastroUser
             // 
@@ -152,8 +152,8 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(264, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtBox_Funcao);
+            this.Controls.Add(this.Lb_nomecompleto);
+            this.Controls.Add(this.TxtBox_NomeCompleto);
             this.Controls.Add(this.TxtBox_Turno);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Button_Cancelar);
@@ -184,7 +184,7 @@ namespace Marelli___Hour_by_Hour.Viewer
         private System.Windows.Forms.Label Lb_UserID;
         private System.Windows.Forms.TextBox TxtBox_Turno;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TxtBox_Funcao;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox TxtBox_NomeCompleto;
+        private System.Windows.Forms.Label Lb_nomecompleto;
     }
 }

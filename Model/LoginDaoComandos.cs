@@ -46,14 +46,15 @@ namespace Marelli___Hour_by_Hour.Model
             return ExistNoBanco;
         }
 
-        public string Cadastro(String Id, String Senha, String Turno, String Funcao)
+        public string Cadastro(String NomeCompleto,String Id, String Senha, String Turno)
         {
             ExistNoBanco = false;
-            cmd.CommandText ="INSERT INTO [dbo].[Tb_Users] VALUES( @Login,@Senha,@Turno,@Funcao)";
+            cmd.CommandText = "INSERT INTO [dbo].[Tb_Users] VALUES(@NomeCompleto, @Login,@Senha,@Turno)";
+            cmd.Parameters.AddWithValue("@NomeCompleto", NomeCompleto);
             cmd.Parameters.AddWithValue("@Login", Id);
             cmd.Parameters.AddWithValue("@Senha", Senha);
             cmd.Parameters.AddWithValue("@Turno", Turno);
-            cmd.Parameters.AddWithValue("@Funcao", Funcao);
+            
             try
             {
                  cmd.Connection = con.Conectar();

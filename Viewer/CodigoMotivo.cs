@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Marelli___Hour_by_Hour.Controller;
 
 namespace Marelli___Hour_by_Hour.Viewer
 {
@@ -15,6 +16,14 @@ namespace Marelli___Hour_by_Hour.Viewer
         public CodigoMotivo()
         {
             InitializeComponent();
+        }
+
+        private void CodigoMotivo_Load(object sender, EventArgs e)
+        {
+            Controle control = new Controle();
+            var DtTable = control.ListaMotivoParada();
+            DataGridMotivos.DataSource = DtTable;
+
         }
     }
 }

@@ -41,11 +41,11 @@ namespace Marelli___Hour_by_Hour.Controller
             return ExistNoBanco;
         }
 
-        public string Cadastro(String Id, String Senha, String Turno, String Funcao)
+        public string Cadastro(String NomeCompleto,String Id, String Senha, String Turno)
         {
             var Hash = Security.Encrypt(Senha);
         
-           this.Mensagem = LoginDao.Cadastro(Id, Hash, Turno, Funcao);
+           this.Mensagem = LoginDao.Cadastro(NomeCompleto,Id, Hash, Turno);
             if (LoginDao.ExistNoBanco)
             {
                 this.ExistNoBanco = true;
