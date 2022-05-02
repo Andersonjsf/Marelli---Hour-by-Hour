@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,8 @@ namespace Marelli___Hour_by_Hour.Model
         SqlConnection con = new SqlConnection();
         public Conexão_DB()
         {
-            con.ConnectionString = @"Data Source=WINAPFAPLOKWZE7;Initial Catalog=DB_MARELLI_DEV;Integrated Security=True";
+            string connString2 = ConfigurationManager.ConnectionStrings["Default"].ConnectionString;
+            con.ConnectionString = @connString2;
         }
         public SqlConnection Conectar()
         {

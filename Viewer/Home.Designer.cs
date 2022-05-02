@@ -41,101 +41,17 @@ namespace Marelli___Hour_by_Hour
             this.Lb_DateToday = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.GroupTurno_Manha = new System.Windows.Forms.GroupBox();
-            this.GrupBox_TurnoTarde = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
+            this.TxtBox_HoraFim9_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio9_Manha = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar9_Manha = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo9_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento9_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho9_Manha = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao9_Manha = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao9_Manha = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod9_Manha = new System.Windows.Forms.ComboBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
             this.TxtBox_HoraFim8_Manha = new System.Windows.Forms.TextBox();
             this.TxtBox_HoraIncio8_Manha = new System.Windows.Forms.TextBox();
             this.ButtonSalvar8_Manha = new System.Windows.Forms.Button();
@@ -230,22 +146,206 @@ namespace Marelli___Hour_by_Hour
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.GroupTurno_Tarde = new System.Windows.Forms.GroupBox();
+            this.TxtBox_HoraFim10_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio10_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar10_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo10_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento10_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho10_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao10_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao10_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod10_Tarde = new System.Windows.Forms.ComboBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.TxtBox_HoraFim9_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio9_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar9_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo9_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento9_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho9_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao9_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao9_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod9_Tarde = new System.Windows.Forms.ComboBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.TxtBox_HoraFim8_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio8_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar8_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo8_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento8_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho8_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao8_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao8_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod8_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim7_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio7_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar7_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo7_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento7_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho7_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao7_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao7_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod7_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim6_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio6_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar6_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo6_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento6_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho6_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao6_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao6_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod6_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim5_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio5_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar5_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo5_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento5_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho5_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao5_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao5_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod5_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim4_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio4_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar4_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo4_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento4_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho4_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao4_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao4_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod4_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim3_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio3_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar3_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo3_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento3_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho3_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao3_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao3_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod3_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim2_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio2_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar2_Tarde = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo2_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento2_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho2_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao2_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao2_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod2_Tarde = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim1_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio1_Tarde = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar1_Tarde = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.TxtBox_Tempo1_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento1_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho1_Tarde = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao1_Tarde = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao1_Tarde = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod1_Tarde = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.GroupTurno_Noite = new System.Windows.Forms.GroupBox();
+            this.TxtBox_HoraFim5_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio5_Noite = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar5_Noite = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo5_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento5_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho5_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao5_Noite = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao5_Noite = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod5_Noite = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim4_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio4_Noite = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar4_Noite = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo4_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento4_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho4_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao4_Noite = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao4_Noite = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod4_Noite = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim3_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio3_Noite = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar3_Noite = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo3_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento3_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho3_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao3_Noite = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao3_Noite = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod3_Noite = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim2_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio2_Noite = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar2_Noite = new System.Windows.Forms.Button();
+            this.TxtBox_Tempo2_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento2_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho2_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao2_Noite = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao2_Noite = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod2_Noite = new System.Windows.Forms.ComboBox();
+            this.TxtBox_HoraFim1_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_HoraIncio1_Noite = new System.Windows.Forms.TextBox();
+            this.ButtonSalvar1_Noite = new System.Windows.Forms.Button();
+            this.Picture_Question = new System.Windows.Forms.PictureBox();
+            this.TxtBox_Tempo1_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Equipamento1_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Retrabalho1_Noite = new System.Windows.Forms.TextBox();
+            this.TxtBox_Producao1_Noite = new System.Windows.Forms.TextBox();
+            this.CBBox_Descricao1_Noite = new System.Windows.Forms.ComboBox();
+            this.CBBox_Cod1_Noite = new System.Windows.Forms.ComboBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.ButtonLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GrupoWellcome.SuspendLayout();
             this.GroupTurno_Manha.SuspendLayout();
-            this.GrupBox_TurnoTarde.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.GroupTurno_Tarde.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.GroupTurno_Noite.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_Question)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(729, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(774, 816);
+            this.pictureBox1.Size = new System.Drawing.Size(774, 1008);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -254,7 +354,7 @@ namespace Marelli___Hour_by_Hour
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1165, 791);
+            this.label1.Location = new System.Drawing.Point(1165, 983);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 15);
             this.label1.TabIndex = 1;
@@ -264,7 +364,7 @@ namespace Marelli___Hour_by_Hour
             // 
             this.Lb_user.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Lb_user.AutoSize = true;
-            this.Lb_user.Location = new System.Drawing.Point(1364, 791);
+            this.Lb_user.Location = new System.Drawing.Point(1364, 983);
             this.Lb_user.Name = "Lb_user";
             this.Lb_user.Size = new System.Drawing.Size(102, 15);
             this.Lb_user.TabIndex = 2;
@@ -296,7 +396,9 @@ namespace Marelli___Hour_by_Hour
             // GrupoWellcome
             // 
             this.GrupoWellcome.AutoSize = true;
+            this.GrupoWellcome.Controls.Add(this.pictureBox4);
             this.GrupoWellcome.Controls.Add(this.Lb_OperadorNome);
+            this.GrupoWellcome.Controls.Add(this.ButtonLogout);
             this.GrupoWellcome.Controls.Add(this.Lb_Operador);
             this.GrupoWellcome.Controls.Add(this.Lb_DateToday);
             this.GrupoWellcome.Controls.Add(this.label23);
@@ -304,7 +406,7 @@ namespace Marelli___Hour_by_Hour
             this.GrupoWellcome.Controls.Add(this.label2);
             this.GrupoWellcome.Location = new System.Drawing.Point(12, 12);
             this.GrupoWellcome.Name = "GrupoWellcome";
-            this.GrupoWellcome.Size = new System.Drawing.Size(1084, 163);
+            this.GrupoWellcome.Size = new System.Drawing.Size(1127, 163);
             this.GrupoWellcome.TabIndex = 5;
             this.GrupoWellcome.TabStop = false;
             this.GrupoWellcome.Text = "Bem vindo ao HBH";
@@ -352,7 +454,17 @@ namespace Marelli___Hour_by_Hour
             // GroupTurno_Manha
             // 
             this.GroupTurno_Manha.AutoSize = true;
-            this.GroupTurno_Manha.Controls.Add(this.GrupBox_TurnoTarde);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraFim9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraIncio9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.ButtonSalvar9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Tempo9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Equipamento9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Retrabalho9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.TxtBox_Producao9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.CBBox_Descricao9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.CBBox_Cod9_Manha);
+            this.GroupTurno_Manha.Controls.Add(this.label60);
+            this.GroupTurno_Manha.Controls.Add(this.label61);
             this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraFim8_Manha);
             this.GroupTurno_Manha.Controls.Add(this.TxtBox_HoraIncio8_Manha);
             this.GroupTurno_Manha.Controls.Add(this.ButtonSalvar8_Manha);
@@ -449,907 +561,104 @@ namespace Marelli___Hour_by_Hour
             this.GroupTurno_Manha.Controls.Add(this.label3);
             this.GroupTurno_Manha.Location = new System.Drawing.Point(12, 190);
             this.GroupTurno_Manha.Name = "GroupTurno_Manha";
-            this.GroupTurno_Manha.Size = new System.Drawing.Size(1084, 671);
+            this.GroupTurno_Manha.Size = new System.Drawing.Size(1127, 1516);
             this.GroupTurno_Manha.TabIndex = 6;
             this.GroupTurno_Manha.TabStop = false;
             this.GroupTurno_Manha.Text = "Turno - Manhã";
             this.GroupTurno_Manha.Visible = false;
             // 
-            // GrupBox_TurnoTarde
-            // 
-            this.GrupBox_TurnoTarde.AutoSize = true;
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox1);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox2);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button1);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox3);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox4);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox5);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox6);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox1);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox2);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox7);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox8);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button2);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox9);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox10);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox11);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox12);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox3);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox4);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox13);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox14);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button3);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox15);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox16);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox17);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox18);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox5);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox6);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox19);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox20);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button4);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox21);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox22);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox23);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox24);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox7);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox8);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox25);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox26);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button5);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox27);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox28);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox29);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox30);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox9);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox10);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox31);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox32);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button6);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox33);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox34);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox35);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox36);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox11);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox12);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox37);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox38);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button7);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox39);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox40);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox41);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox42);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox13);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox14);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox43);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox44);
-            this.GrupBox_TurnoTarde.Controls.Add(this.button8);
-            this.GrupBox_TurnoTarde.Controls.Add(this.pictureBox3);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox45);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox46);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox47);
-            this.GrupBox_TurnoTarde.Controls.Add(this.textBox48);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox15);
-            this.GrupBox_TurnoTarde.Controls.Add(this.comboBox16);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label24);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label25);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label27);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label28);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label29);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label30);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label31);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label32);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label33);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label34);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label35);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label36);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label37);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label38);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label39);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label40);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label41);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label42);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label43);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label44);
-            this.GrupBox_TurnoTarde.Controls.Add(this.label45);
-            this.GrupBox_TurnoTarde.Location = new System.Drawing.Point(1, -1);
-            this.GrupBox_TurnoTarde.Name = "GrupBox_TurnoTarde";
-            this.GrupBox_TurnoTarde.Size = new System.Drawing.Size(1077, 616);
-            this.GrupBox_TurnoTarde.TabIndex = 94;
-            this.GrupBox_TurnoTarde.TabStop = false;
-            this.GrupBox_TurnoTarde.Text = "Turno - Tarde";
-            this.GrupBox_TurnoTarde.Visible = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(126, 504);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(74, 23);
-            this.textBox1.TabIndex = 93;
-            this.textBox1.Text = "09:00";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(12, 504);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(74, 23);
-            this.textBox2.TabIndex = 92;
-            this.textBox2.Text = "08:00";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(964, 503);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 91;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(860, 504);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(74, 23);
-            this.textBox3.TabIndex = 90;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(727, 504);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(74, 23);
-            this.textBox4.TabIndex = 89;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(606, 504);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(74, 23);
-            this.textBox5.TabIndex = 88;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(494, 504);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(74, 23);
-            this.textBox6.TabIndex = 87;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(302, 504);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(167, 23);
-            this.comboBox1.TabIndex = 86;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(257, 504);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(39, 23);
-            this.comboBox2.TabIndex = 85;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(126, 440);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(74, 23);
-            this.textBox7.TabIndex = 84;
-            this.textBox7.Text = "09:00";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(12, 440);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(74, 23);
-            this.textBox8.TabIndex = 83;
-            this.textBox8.Text = "08:00";
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(964, 439);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 82;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(860, 440);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(74, 23);
-            this.textBox9.TabIndex = 81;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(727, 440);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(74, 23);
-            this.textBox10.TabIndex = 80;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(606, 440);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(74, 23);
-            this.textBox11.TabIndex = 79;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(494, 440);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(74, 23);
-            this.textBox12.TabIndex = 78;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(302, 440);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(167, 23);
-            this.comboBox3.TabIndex = 77;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(257, 440);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(39, 23);
-            this.comboBox4.TabIndex = 76;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(126, 368);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(74, 23);
-            this.textBox13.TabIndex = 75;
-            this.textBox13.Text = "09:00";
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(12, 368);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(74, 23);
-            this.textBox14.TabIndex = 74;
-            this.textBox14.Text = "08:00";
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(964, 367);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 73;
-            this.button3.Text = "Salvar";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(860, 368);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(74, 23);
-            this.textBox15.TabIndex = 72;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(727, 368);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(74, 23);
-            this.textBox16.TabIndex = 71;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(606, 368);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(74, 23);
-            this.textBox17.TabIndex = 70;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(494, 368);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(74, 23);
-            this.textBox18.TabIndex = 69;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(302, 368);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(167, 23);
-            this.comboBox5.TabIndex = 68;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(257, 368);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(39, 23);
-            this.comboBox6.TabIndex = 67;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Enabled = false;
-            this.textBox19.Location = new System.Drawing.Point(126, 306);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(74, 23);
-            this.textBox19.TabIndex = 66;
-            this.textBox19.Text = "09:00";
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Enabled = false;
-            this.textBox20.Location = new System.Drawing.Point(12, 306);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(74, 23);
-            this.textBox20.TabIndex = 65;
-            this.textBox20.Text = "15:00";
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(964, 305);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 64;
-            this.button4.Text = "Salvar";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(860, 306);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(74, 23);
-            this.textBox21.TabIndex = 63;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(727, 306);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(74, 23);
-            this.textBox22.TabIndex = 62;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(606, 306);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(74, 23);
-            this.textBox23.TabIndex = 61;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(494, 306);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(74, 23);
-            this.textBox24.TabIndex = 60;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(302, 306);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(167, 23);
-            this.comboBox7.TabIndex = 59;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(257, 306);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(39, 23);
-            this.comboBox8.TabIndex = 58;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Enabled = false;
-            this.textBox25.Location = new System.Drawing.Point(126, 249);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(74, 23);
-            this.textBox25.TabIndex = 57;
-            this.textBox25.Text = "14:00";
-            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Enabled = false;
-            this.textBox26.Location = new System.Drawing.Point(12, 249);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(74, 23);
-            this.textBox26.TabIndex = 56;
-            this.textBox26.Text = "13:00";
-            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(964, 248);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 55;
-            this.button5.Text = "Salvar";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(860, 249);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(74, 23);
-            this.textBox27.TabIndex = 54;
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(727, 249);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(74, 23);
-            this.textBox28.TabIndex = 53;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Location = new System.Drawing.Point(606, 249);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(74, 23);
-            this.textBox29.TabIndex = 52;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(494, 249);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(74, 23);
-            this.textBox30.TabIndex = 51;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(302, 249);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(167, 23);
-            this.comboBox9.TabIndex = 50;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(257, 249);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(39, 23);
-            this.comboBox10.TabIndex = 49;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Enabled = false;
-            this.textBox31.Location = new System.Drawing.Point(126, 189);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(74, 23);
-            this.textBox31.TabIndex = 48;
-            this.textBox31.Text = "12:00";
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Enabled = false;
-            this.textBox32.Location = new System.Drawing.Point(12, 189);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(74, 23);
-            this.textBox32.TabIndex = 47;
-            this.textBox32.Text = "11:00";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(964, 188);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 46;
-            this.button6.Text = "Salvar";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(860, 189);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(74, 23);
-            this.textBox33.TabIndex = 45;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Location = new System.Drawing.Point(727, 189);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(74, 23);
-            this.textBox34.TabIndex = 44;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Location = new System.Drawing.Point(606, 189);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(74, 23);
-            this.textBox35.TabIndex = 43;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Location = new System.Drawing.Point(494, 189);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(74, 23);
-            this.textBox36.TabIndex = 42;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(302, 189);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(167, 23);
-            this.comboBox11.TabIndex = 41;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(257, 189);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(39, 23);
-            this.comboBox12.TabIndex = 40;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Enabled = false;
-            this.textBox37.Location = new System.Drawing.Point(126, 132);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(74, 23);
-            this.textBox37.TabIndex = 39;
-            this.textBox37.Text = "10:00";
-            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Enabled = false;
-            this.textBox38.Location = new System.Drawing.Point(12, 132);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(74, 23);
-            this.textBox38.TabIndex = 38;
-            this.textBox38.Text = "09:00";
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(964, 131);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 37;
-            this.button7.Text = "Salvar";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Location = new System.Drawing.Point(860, 132);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(74, 23);
-            this.textBox39.TabIndex = 36;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Location = new System.Drawing.Point(727, 132);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(74, 23);
-            this.textBox40.TabIndex = 35;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Location = new System.Drawing.Point(606, 132);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(74, 23);
-            this.textBox41.TabIndex = 34;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Location = new System.Drawing.Point(494, 132);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(74, 23);
-            this.textBox42.TabIndex = 33;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(302, 132);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(167, 23);
-            this.comboBox13.TabIndex = 32;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(257, 132);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(39, 23);
-            this.comboBox14.TabIndex = 31;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Enabled = false;
-            this.textBox43.Location = new System.Drawing.Point(126, 78);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(74, 23);
-            this.textBox43.TabIndex = 30;
-            this.textBox43.Text = "09:00";
-            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Enabled = false;
-            this.textBox44.Location = new System.Drawing.Point(12, 78);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(74, 23);
-            this.textBox44.TabIndex = 29;
-            this.textBox44.Text = "08:00";
-            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Transparent;
-            this.button8.Location = new System.Drawing.Point(964, 77);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 28;
-            this.button8.Text = "Salvar";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(439, 56);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(18, 17);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 27;
-            this.pictureBox3.TabStop = false;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Location = new System.Drawing.Point(860, 78);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(74, 23);
-            this.textBox45.TabIndex = 26;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Location = new System.Drawing.Point(727, 78);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(74, 23);
-            this.textBox46.TabIndex = 25;
-            // 
-            // textBox47
-            // 
-            this.textBox47.Location = new System.Drawing.Point(606, 78);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(74, 23);
-            this.textBox47.TabIndex = 24;
-            // 
-            // textBox48
-            // 
-            this.textBox48.Location = new System.Drawing.Point(494, 78);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(74, 23);
-            this.textBox48.TabIndex = 23;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(302, 78);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(167, 23);
-            this.comboBox15.TabIndex = 22;
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(257, 78);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(39, 23);
-            this.comboBox16.TabIndex = 21;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(860, 56);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(43, 15);
-            this.label24.TabIndex = 20;
-            this.label24.Text = "Tempo";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(727, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 15);
-            this.label25.TabIndex = 19;
-            this.label25.Text = "Equipamento";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(606, 56);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(64, 15);
-            this.label27.TabIndex = 18;
-            this.label27.Text = "Retrabalho";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(494, 56);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(58, 15);
-            this.label28.TabIndex = 17;
-            this.label28.Text = "Produção";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(257, 56);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(163, 15);
-            this.label29.TabIndex = 16;
-            this.label29.Text = "Código - Descrição da parada";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(130, 481);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(70, 15);
-            this.label30.TabIndex = 15;
-            this.label30.Text = "Horario Fim";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(130, 412);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(70, 15);
-            this.label31.TabIndex = 14;
-            this.label31.Text = "Horario Fim";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(130, 344);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(70, 15);
-            this.label32.TabIndex = 13;
-            this.label32.Text = "Horario Fim";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(130, 285);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(70, 15);
-            this.label33.TabIndex = 12;
-            this.label33.Text = "Horario Fim";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(130, 226);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(70, 15);
-            this.label34.TabIndex = 11;
-            this.label34.Text = "Horario Fim";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(130, 168);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(70, 15);
-            this.label35.TabIndex = 10;
-            this.label35.Text = "Horario Fim";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(130, 111);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(70, 15);
-            this.label36.TabIndex = 9;
-            this.label36.Text = "Horario Fim";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(130, 56);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(70, 15);
-            this.label37.TabIndex = 8;
-            this.label37.Text = "Horario Fim";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(10, 481);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(79, 15);
-            this.label38.TabIndex = 7;
-            this.label38.Text = "Horario Inicio";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(10, 412);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(79, 15);
-            this.label39.TabIndex = 6;
-            this.label39.Text = "Horario Inicio";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(10, 344);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(79, 15);
-            this.label40.TabIndex = 5;
-            this.label40.Text = "Horario Inicio";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(10, 285);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(79, 15);
-            this.label41.TabIndex = 4;
-            this.label41.Text = "Horario Inicio";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(10, 226);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(79, 15);
-            this.label42.TabIndex = 3;
-            this.label42.Text = "Horario Inicio";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(10, 168);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(79, 15);
-            this.label43.TabIndex = 2;
-            this.label43.Text = "Horario Inicio";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(10, 111);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(79, 15);
-            this.label44.TabIndex = 1;
-            this.label44.Text = "Horario Inicio";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(10, 56);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(79, 15);
-            this.label45.TabIndex = 0;
-            this.label45.Text = "Horario Inicio";
+            // TxtBox_HoraFim9_Manha
+            // 
+            this.TxtBox_HoraFim9_Manha.Enabled = false;
+            this.TxtBox_HoraFim9_Manha.Location = new System.Drawing.Point(126, 569);
+            this.TxtBox_HoraFim9_Manha.Name = "TxtBox_HoraFim9_Manha";
+            this.TxtBox_HoraFim9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim9_Manha.TabIndex = 104;
+            this.TxtBox_HoraFim9_Manha.Text = "15:48";
+            this.TxtBox_HoraFim9_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio9_Manha
+            // 
+            this.TxtBox_HoraIncio9_Manha.Enabled = false;
+            this.TxtBox_HoraIncio9_Manha.Location = new System.Drawing.Point(12, 569);
+            this.TxtBox_HoraIncio9_Manha.Name = "TxtBox_HoraIncio9_Manha";
+            this.TxtBox_HoraIncio9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio9_Manha.TabIndex = 103;
+            this.TxtBox_HoraIncio9_Manha.Text = "15:00";
+            this.TxtBox_HoraIncio9_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar9_Manha
+            // 
+            this.ButtonSalvar9_Manha.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar9_Manha.Location = new System.Drawing.Point(964, 568);
+            this.ButtonSalvar9_Manha.Name = "ButtonSalvar9_Manha";
+            this.ButtonSalvar9_Manha.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar9_Manha.TabIndex = 102;
+            this.ButtonSalvar9_Manha.Text = "Salvar";
+            this.ButtonSalvar9_Manha.UseVisualStyleBackColor = false;
+            this.ButtonSalvar9_Manha.Click += new System.EventHandler(this.ButtonSalvar9_Manha_Click);
+            // 
+            // TxtBox_Tempo9_Manha
+            // 
+            this.TxtBox_Tempo9_Manha.Location = new System.Drawing.Point(860, 569);
+            this.TxtBox_Tempo9_Manha.Name = "TxtBox_Tempo9_Manha";
+            this.TxtBox_Tempo9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo9_Manha.TabIndex = 101;
+            // 
+            // TxtBox_Equipamento9_Manha
+            // 
+            this.TxtBox_Equipamento9_Manha.Location = new System.Drawing.Point(727, 569);
+            this.TxtBox_Equipamento9_Manha.Name = "TxtBox_Equipamento9_Manha";
+            this.TxtBox_Equipamento9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento9_Manha.TabIndex = 100;
+            // 
+            // TxtBox_Retrabalho9_Manha
+            // 
+            this.TxtBox_Retrabalho9_Manha.Location = new System.Drawing.Point(606, 569);
+            this.TxtBox_Retrabalho9_Manha.Name = "TxtBox_Retrabalho9_Manha";
+            this.TxtBox_Retrabalho9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho9_Manha.TabIndex = 99;
+            // 
+            // TxtBox_Producao9_Manha
+            // 
+            this.TxtBox_Producao9_Manha.Location = new System.Drawing.Point(494, 569);
+            this.TxtBox_Producao9_Manha.Name = "TxtBox_Producao9_Manha";
+            this.TxtBox_Producao9_Manha.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao9_Manha.TabIndex = 98;
+            // 
+            // CBBox_Descricao9_Manha
+            // 
+            this.CBBox_Descricao9_Manha.FormattingEnabled = true;
+            this.CBBox_Descricao9_Manha.Location = new System.Drawing.Point(302, 569);
+            this.CBBox_Descricao9_Manha.Name = "CBBox_Descricao9_Manha";
+            this.CBBox_Descricao9_Manha.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao9_Manha.TabIndex = 97;
+            // 
+            // CBBox_Cod9_Manha
+            // 
+            this.CBBox_Cod9_Manha.FormattingEnabled = true;
+            this.CBBox_Cod9_Manha.Location = new System.Drawing.Point(257, 569);
+            this.CBBox_Cod9_Manha.Name = "CBBox_Cod9_Manha";
+            this.CBBox_Cod9_Manha.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod9_Manha.TabIndex = 96;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(130, 546);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(70, 15);
+            this.label60.TabIndex = 95;
+            this.label60.Text = "Horario Fim";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(10, 546);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(79, 15);
+            this.label61.TabIndex = 94;
+            this.label61.Text = "Horario Inicio";
             // 
             // TxtBox_HoraFim8_Manha
             // 
@@ -1358,7 +667,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim8_Manha.Name = "TxtBox_HoraFim8_Manha";
             this.TxtBox_HoraFim8_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim8_Manha.TabIndex = 93;
-            this.TxtBox_HoraFim8_Manha.Text = "09:00";
+            this.TxtBox_HoraFim8_Manha.Text = "14:00";
             this.TxtBox_HoraFim8_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio8_Manha
@@ -1368,7 +677,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio8_Manha.Name = "TxtBox_HoraIncio8_Manha";
             this.TxtBox_HoraIncio8_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio8_Manha.TabIndex = 92;
-            this.TxtBox_HoraIncio8_Manha.Text = "08:00";
+            this.TxtBox_HoraIncio8_Manha.Text = "13:00";
             this.TxtBox_HoraIncio8_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar8_Manha
@@ -1435,7 +744,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim7_Manha.Name = "TxtBox_HoraFim7_Manha";
             this.TxtBox_HoraFim7_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim7_Manha.TabIndex = 84;
-            this.TxtBox_HoraFim7_Manha.Text = "09:00";
+            this.TxtBox_HoraFim7_Manha.Text = "13:00";
             this.TxtBox_HoraFim7_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio7_Manha
@@ -1445,7 +754,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio7_Manha.Name = "TxtBox_HoraIncio7_Manha";
             this.TxtBox_HoraIncio7_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio7_Manha.TabIndex = 83;
-            this.TxtBox_HoraIncio7_Manha.Text = "08:00";
+            this.TxtBox_HoraIncio7_Manha.Text = "12:00";
             this.TxtBox_HoraIncio7_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar7_Manha
@@ -1512,7 +821,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim6_Manha.Name = "TxtBox_HoraFim6_Manha";
             this.TxtBox_HoraFim6_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim6_Manha.TabIndex = 75;
-            this.TxtBox_HoraFim6_Manha.Text = "09:00";
+            this.TxtBox_HoraFim6_Manha.Text = "12:00";
             this.TxtBox_HoraFim6_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio6_Manha
@@ -1522,7 +831,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio6_Manha.Name = "TxtBox_HoraIncio6_Manha";
             this.TxtBox_HoraIncio6_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio6_Manha.TabIndex = 74;
-            this.TxtBox_HoraIncio6_Manha.Text = "08:00";
+            this.TxtBox_HoraIncio6_Manha.Text = "11:00";
             this.TxtBox_HoraIncio6_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar6_Manha
@@ -1589,7 +898,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim5_Manha.Name = "TxtBox_HoraFim5_Manha";
             this.TxtBox_HoraFim5_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim5_Manha.TabIndex = 66;
-            this.TxtBox_HoraFim5_Manha.Text = "09:00";
+            this.TxtBox_HoraFim5_Manha.Text = "11:00";
             this.TxtBox_HoraFim5_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio5_Manha
@@ -1599,7 +908,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio5_Manha.Name = "TxtBox_HoraIncio5_Manha";
             this.TxtBox_HoraIncio5_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio5_Manha.TabIndex = 65;
-            this.TxtBox_HoraIncio5_Manha.Text = "15:00";
+            this.TxtBox_HoraIncio5_Manha.Text = "10:00";
             this.TxtBox_HoraIncio5_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar5_Manha
@@ -1666,7 +975,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim4_Manha.Name = "TxtBox_HoraFim4_Manha";
             this.TxtBox_HoraFim4_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim4_Manha.TabIndex = 57;
-            this.TxtBox_HoraFim4_Manha.Text = "14:00";
+            this.TxtBox_HoraFim4_Manha.Text = "10:00";
             this.TxtBox_HoraFim4_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio4_Manha
@@ -1676,7 +985,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio4_Manha.Name = "TxtBox_HoraIncio4_Manha";
             this.TxtBox_HoraIncio4_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio4_Manha.TabIndex = 56;
-            this.TxtBox_HoraIncio4_Manha.Text = "13:00";
+            this.TxtBox_HoraIncio4_Manha.Text = "09:00";
             this.TxtBox_HoraIncio4_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar4_Manha
@@ -1743,7 +1052,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim3_Manha.Name = "TxtBox_HoraFim3_Manha";
             this.TxtBox_HoraFim3_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim3_Manha.TabIndex = 48;
-            this.TxtBox_HoraFim3_Manha.Text = "12:00";
+            this.TxtBox_HoraFim3_Manha.Text = "09:00";
             this.TxtBox_HoraFim3_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio3_Manha
@@ -1753,7 +1062,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio3_Manha.Name = "TxtBox_HoraIncio3_Manha";
             this.TxtBox_HoraIncio3_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio3_Manha.TabIndex = 47;
-            this.TxtBox_HoraIncio3_Manha.Text = "11:00";
+            this.TxtBox_HoraIncio3_Manha.Text = "08:00";
             this.TxtBox_HoraIncio3_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar3_Manha
@@ -1820,7 +1129,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim2_Manha.Name = "TxtBox_HoraFim2_Manha";
             this.TxtBox_HoraFim2_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim2_Manha.TabIndex = 39;
-            this.TxtBox_HoraFim2_Manha.Text = "10:00";
+            this.TxtBox_HoraFim2_Manha.Text = "08:00";
             this.TxtBox_HoraFim2_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio2_Manha
@@ -1830,7 +1139,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio2_Manha.Name = "TxtBox_HoraIncio2_Manha";
             this.TxtBox_HoraIncio2_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio2_Manha.TabIndex = 38;
-            this.TxtBox_HoraIncio2_Manha.Text = "09:00";
+            this.TxtBox_HoraIncio2_Manha.Text = "07:00";
             this.TxtBox_HoraIncio2_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar2_Manha
@@ -1897,7 +1206,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraFim1_Manha.Name = "TxtBox_HoraFim1_Manha";
             this.TxtBox_HoraFim1_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraFim1_Manha.TabIndex = 30;
-            this.TxtBox_HoraFim1_Manha.Text = "09:00";
+            this.TxtBox_HoraFim1_Manha.Text = "07:00";
             this.TxtBox_HoraFim1_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBox_HoraIncio1_Manha
@@ -1907,7 +1216,7 @@ namespace Marelli___Hour_by_Hour
             this.TxtBox_HoraIncio1_Manha.Name = "TxtBox_HoraIncio1_Manha";
             this.TxtBox_HoraIncio1_Manha.Size = new System.Drawing.Size(74, 23);
             this.TxtBox_HoraIncio1_Manha.TabIndex = 29;
-            this.TxtBox_HoraIncio1_Manha.Text = "08:00";
+            this.TxtBox_HoraIncio1_Manha.Text = "06:00";
             this.TxtBox_HoraIncio1_Manha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ButtonSalvar1_Manha
@@ -1930,7 +1239,6 @@ namespace Marelli___Hour_by_Hour
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 27;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // TxtBox_Tempo1_Manha
             // 
@@ -2167,18 +1475,1785 @@ namespace Marelli___Hour_by_Hour
             this.label3.TabIndex = 0;
             this.label3.Text = "Horario Inicio";
             // 
+            // GroupTurno_Tarde
+            // 
+            this.GroupTurno_Tarde.AutoSize = true;
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod10_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.label53);
+            this.GroupTurno_Tarde.Controls.Add(this.label59);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod9_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.label51);
+            this.GroupTurno_Tarde.Controls.Add(this.label52);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod8_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod7_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod6_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod5_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod4_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod3_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod2_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraFim1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_HoraIncio1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.ButtonSalvar1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.pictureBox3);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Tempo1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Equipamento1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Retrabalho1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.TxtBox_Producao1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Descricao1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.CBBox_Cod1_Tarde);
+            this.GroupTurno_Tarde.Controls.Add(this.label24);
+            this.GroupTurno_Tarde.Controls.Add(this.label25);
+            this.GroupTurno_Tarde.Controls.Add(this.label27);
+            this.GroupTurno_Tarde.Controls.Add(this.label28);
+            this.GroupTurno_Tarde.Controls.Add(this.label29);
+            this.GroupTurno_Tarde.Controls.Add(this.label30);
+            this.GroupTurno_Tarde.Controls.Add(this.label31);
+            this.GroupTurno_Tarde.Controls.Add(this.label32);
+            this.GroupTurno_Tarde.Controls.Add(this.label33);
+            this.GroupTurno_Tarde.Controls.Add(this.label34);
+            this.GroupTurno_Tarde.Controls.Add(this.label35);
+            this.GroupTurno_Tarde.Controls.Add(this.label36);
+            this.GroupTurno_Tarde.Controls.Add(this.label37);
+            this.GroupTurno_Tarde.Controls.Add(this.label38);
+            this.GroupTurno_Tarde.Controls.Add(this.label39);
+            this.GroupTurno_Tarde.Controls.Add(this.label40);
+            this.GroupTurno_Tarde.Controls.Add(this.label41);
+            this.GroupTurno_Tarde.Controls.Add(this.label42);
+            this.GroupTurno_Tarde.Controls.Add(this.label43);
+            this.GroupTurno_Tarde.Controls.Add(this.label44);
+            this.GroupTurno_Tarde.Controls.Add(this.label45);
+            this.GroupTurno_Tarde.Location = new System.Drawing.Point(12, 190);
+            this.GroupTurno_Tarde.Name = "GroupTurno_Tarde";
+            this.GroupTurno_Tarde.Size = new System.Drawing.Size(1127, 1516);
+            this.GroupTurno_Tarde.TabIndex = 94;
+            this.GroupTurno_Tarde.TabStop = false;
+            this.GroupTurno_Tarde.Text = "Turno - Tarde";
+            this.GroupTurno_Tarde.Visible = false;
+            // 
+            // TxtBox_HoraFim10_Tarde
+            // 
+            this.TxtBox_HoraFim10_Tarde.Enabled = false;
+            this.TxtBox_HoraFim10_Tarde.Location = new System.Drawing.Point(126, 623);
+            this.TxtBox_HoraFim10_Tarde.Name = "TxtBox_HoraFim10_Tarde";
+            this.TxtBox_HoraFim10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim10_Tarde.TabIndex = 115;
+            this.TxtBox_HoraFim10_Tarde.Text = "01:09";
+            this.TxtBox_HoraFim10_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio10_Tarde
+            // 
+            this.TxtBox_HoraIncio10_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio10_Tarde.Location = new System.Drawing.Point(12, 623);
+            this.TxtBox_HoraIncio10_Tarde.Name = "TxtBox_HoraIncio10_Tarde";
+            this.TxtBox_HoraIncio10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio10_Tarde.TabIndex = 114;
+            this.TxtBox_HoraIncio10_Tarde.Text = "00:00";
+            this.TxtBox_HoraIncio10_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar10_Tarde
+            // 
+            this.ButtonSalvar10_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar10_Tarde.Location = new System.Drawing.Point(964, 622);
+            this.ButtonSalvar10_Tarde.Name = "ButtonSalvar10_Tarde";
+            this.ButtonSalvar10_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar10_Tarde.TabIndex = 113;
+            this.ButtonSalvar10_Tarde.Text = "Salvar";
+            this.ButtonSalvar10_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar10_Tarde.Click += new System.EventHandler(this.ButtonSalvar10_Tarde_Click);
+            // 
+            // TxtBox_Tempo10_Tarde
+            // 
+            this.TxtBox_Tempo10_Tarde.Location = new System.Drawing.Point(860, 623);
+            this.TxtBox_Tempo10_Tarde.Name = "TxtBox_Tempo10_Tarde";
+            this.TxtBox_Tempo10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo10_Tarde.TabIndex = 112;
+            // 
+            // TxtBox_Equipamento10_Tarde
+            // 
+            this.TxtBox_Equipamento10_Tarde.Location = new System.Drawing.Point(727, 623);
+            this.TxtBox_Equipamento10_Tarde.Name = "TxtBox_Equipamento10_Tarde";
+            this.TxtBox_Equipamento10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento10_Tarde.TabIndex = 111;
+            // 
+            // TxtBox_Retrabalho10_Tarde
+            // 
+            this.TxtBox_Retrabalho10_Tarde.Location = new System.Drawing.Point(606, 623);
+            this.TxtBox_Retrabalho10_Tarde.Name = "TxtBox_Retrabalho10_Tarde";
+            this.TxtBox_Retrabalho10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho10_Tarde.TabIndex = 110;
+            // 
+            // TxtBox_Producao10_Tarde
+            // 
+            this.TxtBox_Producao10_Tarde.Location = new System.Drawing.Point(494, 623);
+            this.TxtBox_Producao10_Tarde.Name = "TxtBox_Producao10_Tarde";
+            this.TxtBox_Producao10_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao10_Tarde.TabIndex = 109;
+            // 
+            // CBBox_Descricao10_Tarde
+            // 
+            this.CBBox_Descricao10_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao10_Tarde.Location = new System.Drawing.Point(302, 623);
+            this.CBBox_Descricao10_Tarde.Name = "CBBox_Descricao10_Tarde";
+            this.CBBox_Descricao10_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao10_Tarde.TabIndex = 108;
+            this.CBBox_Descricao10_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao10_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod10_Tarde
+            // 
+            this.CBBox_Cod10_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod10_Tarde.Location = new System.Drawing.Point(257, 623);
+            this.CBBox_Cod10_Tarde.Name = "CBBox_Cod10_Tarde";
+            this.CBBox_Cod10_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod10_Tarde.TabIndex = 107;
+            this.CBBox_Cod10_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod10_Tarde_SelectedIndexChanged);
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(130, 600);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(70, 15);
+            this.label53.TabIndex = 106;
+            this.label53.Text = "Horario Fim";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(10, 600);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(79, 15);
+            this.label59.TabIndex = 105;
+            this.label59.Text = "Horario Inicio";
+            // 
+            // TxtBox_HoraFim9_Tarde
+            // 
+            this.TxtBox_HoraFim9_Tarde.Enabled = false;
+            this.TxtBox_HoraFim9_Tarde.Location = new System.Drawing.Point(126, 561);
+            this.TxtBox_HoraFim9_Tarde.Name = "TxtBox_HoraFim9_Tarde";
+            this.TxtBox_HoraFim9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim9_Tarde.TabIndex = 104;
+            this.TxtBox_HoraFim9_Tarde.Text = "00:00";
+            this.TxtBox_HoraFim9_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio9_Tarde
+            // 
+            this.TxtBox_HoraIncio9_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio9_Tarde.Location = new System.Drawing.Point(12, 561);
+            this.TxtBox_HoraIncio9_Tarde.Name = "TxtBox_HoraIncio9_Tarde";
+            this.TxtBox_HoraIncio9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio9_Tarde.TabIndex = 103;
+            this.TxtBox_HoraIncio9_Tarde.Text = "23:00";
+            this.TxtBox_HoraIncio9_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar9_Tarde
+            // 
+            this.ButtonSalvar9_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar9_Tarde.Location = new System.Drawing.Point(964, 560);
+            this.ButtonSalvar9_Tarde.Name = "ButtonSalvar9_Tarde";
+            this.ButtonSalvar9_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar9_Tarde.TabIndex = 102;
+            this.ButtonSalvar9_Tarde.Text = "Salvar";
+            this.ButtonSalvar9_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar9_Tarde.Click += new System.EventHandler(this.ButtonSalvar9_Tarde_Click);
+            // 
+            // TxtBox_Tempo9_Tarde
+            // 
+            this.TxtBox_Tempo9_Tarde.Location = new System.Drawing.Point(860, 561);
+            this.TxtBox_Tempo9_Tarde.Name = "TxtBox_Tempo9_Tarde";
+            this.TxtBox_Tempo9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo9_Tarde.TabIndex = 101;
+            // 
+            // TxtBox_Equipamento9_Tarde
+            // 
+            this.TxtBox_Equipamento9_Tarde.Location = new System.Drawing.Point(727, 561);
+            this.TxtBox_Equipamento9_Tarde.Name = "TxtBox_Equipamento9_Tarde";
+            this.TxtBox_Equipamento9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento9_Tarde.TabIndex = 100;
+            // 
+            // TxtBox_Retrabalho9_Tarde
+            // 
+            this.TxtBox_Retrabalho9_Tarde.Location = new System.Drawing.Point(606, 561);
+            this.TxtBox_Retrabalho9_Tarde.Name = "TxtBox_Retrabalho9_Tarde";
+            this.TxtBox_Retrabalho9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho9_Tarde.TabIndex = 99;
+            // 
+            // TxtBox_Producao9_Tarde
+            // 
+            this.TxtBox_Producao9_Tarde.Location = new System.Drawing.Point(494, 561);
+            this.TxtBox_Producao9_Tarde.Name = "TxtBox_Producao9_Tarde";
+            this.TxtBox_Producao9_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao9_Tarde.TabIndex = 98;
+            // 
+            // CBBox_Descricao9_Tarde
+            // 
+            this.CBBox_Descricao9_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao9_Tarde.Location = new System.Drawing.Point(302, 561);
+            this.CBBox_Descricao9_Tarde.Name = "CBBox_Descricao9_Tarde";
+            this.CBBox_Descricao9_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao9_Tarde.TabIndex = 97;
+            this.CBBox_Descricao9_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao9_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod9_Tarde
+            // 
+            this.CBBox_Cod9_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod9_Tarde.Location = new System.Drawing.Point(257, 561);
+            this.CBBox_Cod9_Tarde.Name = "CBBox_Cod9_Tarde";
+            this.CBBox_Cod9_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod9_Tarde.TabIndex = 96;
+            this.CBBox_Cod9_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod9_Tarde_SelectedIndexChanged);
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(130, 538);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(70, 15);
+            this.label51.TabIndex = 95;
+            this.label51.Text = "Horario Fim";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(10, 538);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(79, 15);
+            this.label52.TabIndex = 94;
+            this.label52.Text = "Horario Inicio";
+            // 
+            // TxtBox_HoraFim8_Tarde
+            // 
+            this.TxtBox_HoraFim8_Tarde.Enabled = false;
+            this.TxtBox_HoraFim8_Tarde.Location = new System.Drawing.Point(126, 499);
+            this.TxtBox_HoraFim8_Tarde.Name = "TxtBox_HoraFim8_Tarde";
+            this.TxtBox_HoraFim8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim8_Tarde.TabIndex = 93;
+            this.TxtBox_HoraFim8_Tarde.Text = "23:00";
+            this.TxtBox_HoraFim8_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio8_Tarde
+            // 
+            this.TxtBox_HoraIncio8_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio8_Tarde.Location = new System.Drawing.Point(12, 499);
+            this.TxtBox_HoraIncio8_Tarde.Name = "TxtBox_HoraIncio8_Tarde";
+            this.TxtBox_HoraIncio8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio8_Tarde.TabIndex = 92;
+            this.TxtBox_HoraIncio8_Tarde.Text = "22:00";
+            this.TxtBox_HoraIncio8_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar8_Tarde
+            // 
+            this.ButtonSalvar8_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar8_Tarde.Location = new System.Drawing.Point(964, 498);
+            this.ButtonSalvar8_Tarde.Name = "ButtonSalvar8_Tarde";
+            this.ButtonSalvar8_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar8_Tarde.TabIndex = 91;
+            this.ButtonSalvar8_Tarde.Text = "Salvar";
+            this.ButtonSalvar8_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar8_Tarde.Click += new System.EventHandler(this.ButtonSalvar8_Tarde_Click);
+            // 
+            // TxtBox_Tempo8_Tarde
+            // 
+            this.TxtBox_Tempo8_Tarde.Location = new System.Drawing.Point(860, 499);
+            this.TxtBox_Tempo8_Tarde.Name = "TxtBox_Tempo8_Tarde";
+            this.TxtBox_Tempo8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo8_Tarde.TabIndex = 90;
+            // 
+            // TxtBox_Equipamento8_Tarde
+            // 
+            this.TxtBox_Equipamento8_Tarde.Location = new System.Drawing.Point(727, 499);
+            this.TxtBox_Equipamento8_Tarde.Name = "TxtBox_Equipamento8_Tarde";
+            this.TxtBox_Equipamento8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento8_Tarde.TabIndex = 89;
+            // 
+            // TxtBox_Retrabalho8_Tarde
+            // 
+            this.TxtBox_Retrabalho8_Tarde.Location = new System.Drawing.Point(606, 499);
+            this.TxtBox_Retrabalho8_Tarde.Name = "TxtBox_Retrabalho8_Tarde";
+            this.TxtBox_Retrabalho8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho8_Tarde.TabIndex = 88;
+            // 
+            // TxtBox_Producao8_Tarde
+            // 
+            this.TxtBox_Producao8_Tarde.Location = new System.Drawing.Point(494, 499);
+            this.TxtBox_Producao8_Tarde.Name = "TxtBox_Producao8_Tarde";
+            this.TxtBox_Producao8_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao8_Tarde.TabIndex = 87;
+            // 
+            // CBBox_Descricao8_Tarde
+            // 
+            this.CBBox_Descricao8_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao8_Tarde.Location = new System.Drawing.Point(302, 499);
+            this.CBBox_Descricao8_Tarde.Name = "CBBox_Descricao8_Tarde";
+            this.CBBox_Descricao8_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao8_Tarde.TabIndex = 86;
+            this.CBBox_Descricao8_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao8_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod8_Tarde
+            // 
+            this.CBBox_Cod8_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod8_Tarde.Location = new System.Drawing.Point(257, 499);
+            this.CBBox_Cod8_Tarde.Name = "CBBox_Cod8_Tarde";
+            this.CBBox_Cod8_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod8_Tarde.TabIndex = 85;
+            this.CBBox_Cod8_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod8_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim7_Tarde
+            // 
+            this.TxtBox_HoraFim7_Tarde.Enabled = false;
+            this.TxtBox_HoraFim7_Tarde.Location = new System.Drawing.Point(126, 436);
+            this.TxtBox_HoraFim7_Tarde.Name = "TxtBox_HoraFim7_Tarde";
+            this.TxtBox_HoraFim7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim7_Tarde.TabIndex = 84;
+            this.TxtBox_HoraFim7_Tarde.Text = "22:00";
+            this.TxtBox_HoraFim7_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio7_Tarde
+            // 
+            this.TxtBox_HoraIncio7_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio7_Tarde.Location = new System.Drawing.Point(12, 436);
+            this.TxtBox_HoraIncio7_Tarde.Name = "TxtBox_HoraIncio7_Tarde";
+            this.TxtBox_HoraIncio7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio7_Tarde.TabIndex = 83;
+            this.TxtBox_HoraIncio7_Tarde.Text = "21:00";
+            this.TxtBox_HoraIncio7_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar7_Tarde
+            // 
+            this.ButtonSalvar7_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar7_Tarde.Location = new System.Drawing.Point(964, 435);
+            this.ButtonSalvar7_Tarde.Name = "ButtonSalvar7_Tarde";
+            this.ButtonSalvar7_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar7_Tarde.TabIndex = 82;
+            this.ButtonSalvar7_Tarde.Text = "Salvar";
+            this.ButtonSalvar7_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar7_Tarde.Click += new System.EventHandler(this.ButtonSalvar7_Tarde_Click);
+            // 
+            // TxtBox_Tempo7_Tarde
+            // 
+            this.TxtBox_Tempo7_Tarde.Location = new System.Drawing.Point(860, 436);
+            this.TxtBox_Tempo7_Tarde.Name = "TxtBox_Tempo7_Tarde";
+            this.TxtBox_Tempo7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo7_Tarde.TabIndex = 81;
+            // 
+            // TxtBox_Equipamento7_Tarde
+            // 
+            this.TxtBox_Equipamento7_Tarde.Location = new System.Drawing.Point(727, 436);
+            this.TxtBox_Equipamento7_Tarde.Name = "TxtBox_Equipamento7_Tarde";
+            this.TxtBox_Equipamento7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento7_Tarde.TabIndex = 80;
+            // 
+            // TxtBox_Retrabalho7_Tarde
+            // 
+            this.TxtBox_Retrabalho7_Tarde.Location = new System.Drawing.Point(606, 436);
+            this.TxtBox_Retrabalho7_Tarde.Name = "TxtBox_Retrabalho7_Tarde";
+            this.TxtBox_Retrabalho7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho7_Tarde.TabIndex = 79;
+            // 
+            // TxtBox_Producao7_Tarde
+            // 
+            this.TxtBox_Producao7_Tarde.Location = new System.Drawing.Point(494, 436);
+            this.TxtBox_Producao7_Tarde.Name = "TxtBox_Producao7_Tarde";
+            this.TxtBox_Producao7_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao7_Tarde.TabIndex = 78;
+            // 
+            // CBBox_Descricao7_Tarde
+            // 
+            this.CBBox_Descricao7_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao7_Tarde.Location = new System.Drawing.Point(302, 436);
+            this.CBBox_Descricao7_Tarde.Name = "CBBox_Descricao7_Tarde";
+            this.CBBox_Descricao7_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao7_Tarde.TabIndex = 77;
+            this.CBBox_Descricao7_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao7_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod7_Tarde
+            // 
+            this.CBBox_Cod7_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod7_Tarde.Location = new System.Drawing.Point(257, 436);
+            this.CBBox_Cod7_Tarde.Name = "CBBox_Cod7_Tarde";
+            this.CBBox_Cod7_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod7_Tarde.TabIndex = 76;
+            this.CBBox_Cod7_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod7_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim6_Tarde
+            // 
+            this.TxtBox_HoraFim6_Tarde.Enabled = false;
+            this.TxtBox_HoraFim6_Tarde.Location = new System.Drawing.Point(126, 368);
+            this.TxtBox_HoraFim6_Tarde.Name = "TxtBox_HoraFim6_Tarde";
+            this.TxtBox_HoraFim6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim6_Tarde.TabIndex = 75;
+            this.TxtBox_HoraFim6_Tarde.Text = "21:00";
+            this.TxtBox_HoraFim6_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio6_Tarde
+            // 
+            this.TxtBox_HoraIncio6_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio6_Tarde.Location = new System.Drawing.Point(12, 368);
+            this.TxtBox_HoraIncio6_Tarde.Name = "TxtBox_HoraIncio6_Tarde";
+            this.TxtBox_HoraIncio6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio6_Tarde.TabIndex = 74;
+            this.TxtBox_HoraIncio6_Tarde.Text = "20:00";
+            this.TxtBox_HoraIncio6_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar6_Tarde
+            // 
+            this.ButtonSalvar6_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar6_Tarde.Location = new System.Drawing.Point(964, 367);
+            this.ButtonSalvar6_Tarde.Name = "ButtonSalvar6_Tarde";
+            this.ButtonSalvar6_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar6_Tarde.TabIndex = 73;
+            this.ButtonSalvar6_Tarde.Text = "Salvar";
+            this.ButtonSalvar6_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar6_Tarde.Click += new System.EventHandler(this.ButtonSalvar6_Tarde_Click);
+            // 
+            // TxtBox_Tempo6_Tarde
+            // 
+            this.TxtBox_Tempo6_Tarde.Location = new System.Drawing.Point(860, 368);
+            this.TxtBox_Tempo6_Tarde.Name = "TxtBox_Tempo6_Tarde";
+            this.TxtBox_Tempo6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo6_Tarde.TabIndex = 72;
+            // 
+            // TxtBox_Equipamento6_Tarde
+            // 
+            this.TxtBox_Equipamento6_Tarde.Location = new System.Drawing.Point(727, 368);
+            this.TxtBox_Equipamento6_Tarde.Name = "TxtBox_Equipamento6_Tarde";
+            this.TxtBox_Equipamento6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento6_Tarde.TabIndex = 71;
+            // 
+            // TxtBox_Retrabalho6_Tarde
+            // 
+            this.TxtBox_Retrabalho6_Tarde.Location = new System.Drawing.Point(606, 368);
+            this.TxtBox_Retrabalho6_Tarde.Name = "TxtBox_Retrabalho6_Tarde";
+            this.TxtBox_Retrabalho6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho6_Tarde.TabIndex = 70;
+            // 
+            // TxtBox_Producao6_Tarde
+            // 
+            this.TxtBox_Producao6_Tarde.Location = new System.Drawing.Point(494, 368);
+            this.TxtBox_Producao6_Tarde.Name = "TxtBox_Producao6_Tarde";
+            this.TxtBox_Producao6_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao6_Tarde.TabIndex = 69;
+            // 
+            // CBBox_Descricao6_Tarde
+            // 
+            this.CBBox_Descricao6_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao6_Tarde.Location = new System.Drawing.Point(302, 368);
+            this.CBBox_Descricao6_Tarde.Name = "CBBox_Descricao6_Tarde";
+            this.CBBox_Descricao6_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao6_Tarde.TabIndex = 68;
+            this.CBBox_Descricao6_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao6_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod6_Tarde
+            // 
+            this.CBBox_Cod6_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod6_Tarde.Location = new System.Drawing.Point(257, 368);
+            this.CBBox_Cod6_Tarde.Name = "CBBox_Cod6_Tarde";
+            this.CBBox_Cod6_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod6_Tarde.TabIndex = 67;
+            this.CBBox_Cod6_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod6_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim5_Tarde
+            // 
+            this.TxtBox_HoraFim5_Tarde.Enabled = false;
+            this.TxtBox_HoraFim5_Tarde.Location = new System.Drawing.Point(126, 306);
+            this.TxtBox_HoraFim5_Tarde.Name = "TxtBox_HoraFim5_Tarde";
+            this.TxtBox_HoraFim5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim5_Tarde.TabIndex = 66;
+            this.TxtBox_HoraFim5_Tarde.Text = "20:00";
+            this.TxtBox_HoraFim5_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio5_Tarde
+            // 
+            this.TxtBox_HoraIncio5_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio5_Tarde.Location = new System.Drawing.Point(12, 306);
+            this.TxtBox_HoraIncio5_Tarde.Name = "TxtBox_HoraIncio5_Tarde";
+            this.TxtBox_HoraIncio5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio5_Tarde.TabIndex = 65;
+            this.TxtBox_HoraIncio5_Tarde.Text = "19:00";
+            this.TxtBox_HoraIncio5_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar5_Tarde
+            // 
+            this.ButtonSalvar5_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar5_Tarde.Location = new System.Drawing.Point(964, 305);
+            this.ButtonSalvar5_Tarde.Name = "ButtonSalvar5_Tarde";
+            this.ButtonSalvar5_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar5_Tarde.TabIndex = 64;
+            this.ButtonSalvar5_Tarde.Text = "Salvar";
+            this.ButtonSalvar5_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar5_Tarde.Click += new System.EventHandler(this.ButtonSalvar5_Tarde_Click);
+            // 
+            // TxtBox_Tempo5_Tarde
+            // 
+            this.TxtBox_Tempo5_Tarde.Location = new System.Drawing.Point(860, 306);
+            this.TxtBox_Tempo5_Tarde.Name = "TxtBox_Tempo5_Tarde";
+            this.TxtBox_Tempo5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo5_Tarde.TabIndex = 63;
+            // 
+            // TxtBox_Equipamento5_Tarde
+            // 
+            this.TxtBox_Equipamento5_Tarde.Location = new System.Drawing.Point(727, 306);
+            this.TxtBox_Equipamento5_Tarde.Name = "TxtBox_Equipamento5_Tarde";
+            this.TxtBox_Equipamento5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento5_Tarde.TabIndex = 62;
+            // 
+            // TxtBox_Retrabalho5_Tarde
+            // 
+            this.TxtBox_Retrabalho5_Tarde.Location = new System.Drawing.Point(606, 306);
+            this.TxtBox_Retrabalho5_Tarde.Name = "TxtBox_Retrabalho5_Tarde";
+            this.TxtBox_Retrabalho5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho5_Tarde.TabIndex = 61;
+            // 
+            // TxtBox_Producao5_Tarde
+            // 
+            this.TxtBox_Producao5_Tarde.Location = new System.Drawing.Point(494, 306);
+            this.TxtBox_Producao5_Tarde.Name = "TxtBox_Producao5_Tarde";
+            this.TxtBox_Producao5_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao5_Tarde.TabIndex = 60;
+            // 
+            // CBBox_Descricao5_Tarde
+            // 
+            this.CBBox_Descricao5_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao5_Tarde.Location = new System.Drawing.Point(302, 306);
+            this.CBBox_Descricao5_Tarde.Name = "CBBox_Descricao5_Tarde";
+            this.CBBox_Descricao5_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao5_Tarde.TabIndex = 59;
+            this.CBBox_Descricao5_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao5_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod5_Tarde
+            // 
+            this.CBBox_Cod5_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod5_Tarde.Location = new System.Drawing.Point(257, 306);
+            this.CBBox_Cod5_Tarde.Name = "CBBox_Cod5_Tarde";
+            this.CBBox_Cod5_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod5_Tarde.TabIndex = 58;
+            this.CBBox_Cod5_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod5_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim4_Tarde
+            // 
+            this.TxtBox_HoraFim4_Tarde.Enabled = false;
+            this.TxtBox_HoraFim4_Tarde.Location = new System.Drawing.Point(126, 249);
+            this.TxtBox_HoraFim4_Tarde.Name = "TxtBox_HoraFim4_Tarde";
+            this.TxtBox_HoraFim4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim4_Tarde.TabIndex = 57;
+            this.TxtBox_HoraFim4_Tarde.Text = "19:00";
+            this.TxtBox_HoraFim4_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio4_Tarde
+            // 
+            this.TxtBox_HoraIncio4_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio4_Tarde.Location = new System.Drawing.Point(12, 249);
+            this.TxtBox_HoraIncio4_Tarde.Name = "TxtBox_HoraIncio4_Tarde";
+            this.TxtBox_HoraIncio4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio4_Tarde.TabIndex = 56;
+            this.TxtBox_HoraIncio4_Tarde.Text = "18:00";
+            this.TxtBox_HoraIncio4_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar4_Tarde
+            // 
+            this.ButtonSalvar4_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar4_Tarde.Location = new System.Drawing.Point(964, 248);
+            this.ButtonSalvar4_Tarde.Name = "ButtonSalvar4_Tarde";
+            this.ButtonSalvar4_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar4_Tarde.TabIndex = 55;
+            this.ButtonSalvar4_Tarde.Text = "Salvar";
+            this.ButtonSalvar4_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar4_Tarde.Click += new System.EventHandler(this.ButtonSalvar4_Tarde_Click);
+            // 
+            // TxtBox_Tempo4_Tarde
+            // 
+            this.TxtBox_Tempo4_Tarde.Location = new System.Drawing.Point(860, 249);
+            this.TxtBox_Tempo4_Tarde.Name = "TxtBox_Tempo4_Tarde";
+            this.TxtBox_Tempo4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo4_Tarde.TabIndex = 54;
+            // 
+            // TxtBox_Equipamento4_Tarde
+            // 
+            this.TxtBox_Equipamento4_Tarde.Location = new System.Drawing.Point(727, 249);
+            this.TxtBox_Equipamento4_Tarde.Name = "TxtBox_Equipamento4_Tarde";
+            this.TxtBox_Equipamento4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento4_Tarde.TabIndex = 53;
+            // 
+            // TxtBox_Retrabalho4_Tarde
+            // 
+            this.TxtBox_Retrabalho4_Tarde.Location = new System.Drawing.Point(606, 249);
+            this.TxtBox_Retrabalho4_Tarde.Name = "TxtBox_Retrabalho4_Tarde";
+            this.TxtBox_Retrabalho4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho4_Tarde.TabIndex = 52;
+            // 
+            // TxtBox_Producao4_Tarde
+            // 
+            this.TxtBox_Producao4_Tarde.Location = new System.Drawing.Point(494, 249);
+            this.TxtBox_Producao4_Tarde.Name = "TxtBox_Producao4_Tarde";
+            this.TxtBox_Producao4_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao4_Tarde.TabIndex = 51;
+            // 
+            // CBBox_Descricao4_Tarde
+            // 
+            this.CBBox_Descricao4_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao4_Tarde.Location = new System.Drawing.Point(302, 249);
+            this.CBBox_Descricao4_Tarde.Name = "CBBox_Descricao4_Tarde";
+            this.CBBox_Descricao4_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao4_Tarde.TabIndex = 50;
+            this.CBBox_Descricao4_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao4_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod4_Tarde
+            // 
+            this.CBBox_Cod4_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod4_Tarde.Location = new System.Drawing.Point(257, 249);
+            this.CBBox_Cod4_Tarde.Name = "CBBox_Cod4_Tarde";
+            this.CBBox_Cod4_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod4_Tarde.TabIndex = 49;
+            this.CBBox_Cod4_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod4_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim3_Tarde
+            // 
+            this.TxtBox_HoraFim3_Tarde.Enabled = false;
+            this.TxtBox_HoraFim3_Tarde.Location = new System.Drawing.Point(126, 189);
+            this.TxtBox_HoraFim3_Tarde.Name = "TxtBox_HoraFim3_Tarde";
+            this.TxtBox_HoraFim3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim3_Tarde.TabIndex = 48;
+            this.TxtBox_HoraFim3_Tarde.Text = "18:00";
+            this.TxtBox_HoraFim3_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio3_Tarde
+            // 
+            this.TxtBox_HoraIncio3_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio3_Tarde.Location = new System.Drawing.Point(12, 189);
+            this.TxtBox_HoraIncio3_Tarde.Name = "TxtBox_HoraIncio3_Tarde";
+            this.TxtBox_HoraIncio3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio3_Tarde.TabIndex = 47;
+            this.TxtBox_HoraIncio3_Tarde.Text = "17:00";
+            this.TxtBox_HoraIncio3_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar3_Tarde
+            // 
+            this.ButtonSalvar3_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar3_Tarde.Location = new System.Drawing.Point(964, 188);
+            this.ButtonSalvar3_Tarde.Name = "ButtonSalvar3_Tarde";
+            this.ButtonSalvar3_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar3_Tarde.TabIndex = 46;
+            this.ButtonSalvar3_Tarde.Text = "Salvar";
+            this.ButtonSalvar3_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar3_Tarde.Click += new System.EventHandler(this.ButtonSalvar3_Tarde_Click);
+            // 
+            // TxtBox_Tempo3_Tarde
+            // 
+            this.TxtBox_Tempo3_Tarde.Location = new System.Drawing.Point(860, 189);
+            this.TxtBox_Tempo3_Tarde.Name = "TxtBox_Tempo3_Tarde";
+            this.TxtBox_Tempo3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo3_Tarde.TabIndex = 45;
+            // 
+            // TxtBox_Equipamento3_Tarde
+            // 
+            this.TxtBox_Equipamento3_Tarde.Location = new System.Drawing.Point(727, 189);
+            this.TxtBox_Equipamento3_Tarde.Name = "TxtBox_Equipamento3_Tarde";
+            this.TxtBox_Equipamento3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento3_Tarde.TabIndex = 44;
+            // 
+            // TxtBox_Retrabalho3_Tarde
+            // 
+            this.TxtBox_Retrabalho3_Tarde.Location = new System.Drawing.Point(606, 189);
+            this.TxtBox_Retrabalho3_Tarde.Name = "TxtBox_Retrabalho3_Tarde";
+            this.TxtBox_Retrabalho3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho3_Tarde.TabIndex = 43;
+            // 
+            // TxtBox_Producao3_Tarde
+            // 
+            this.TxtBox_Producao3_Tarde.Location = new System.Drawing.Point(494, 189);
+            this.TxtBox_Producao3_Tarde.Name = "TxtBox_Producao3_Tarde";
+            this.TxtBox_Producao3_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao3_Tarde.TabIndex = 42;
+            // 
+            // CBBox_Descricao3_Tarde
+            // 
+            this.CBBox_Descricao3_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao3_Tarde.Location = new System.Drawing.Point(302, 189);
+            this.CBBox_Descricao3_Tarde.Name = "CBBox_Descricao3_Tarde";
+            this.CBBox_Descricao3_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao3_Tarde.TabIndex = 41;
+            this.CBBox_Descricao3_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao3_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod3_Tarde
+            // 
+            this.CBBox_Cod3_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod3_Tarde.Location = new System.Drawing.Point(257, 189);
+            this.CBBox_Cod3_Tarde.Name = "CBBox_Cod3_Tarde";
+            this.CBBox_Cod3_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod3_Tarde.TabIndex = 40;
+            this.CBBox_Cod3_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod3_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim2_Tarde
+            // 
+            this.TxtBox_HoraFim2_Tarde.Enabled = false;
+            this.TxtBox_HoraFim2_Tarde.Location = new System.Drawing.Point(126, 132);
+            this.TxtBox_HoraFim2_Tarde.Name = "TxtBox_HoraFim2_Tarde";
+            this.TxtBox_HoraFim2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim2_Tarde.TabIndex = 39;
+            this.TxtBox_HoraFim2_Tarde.Text = "17:00";
+            this.TxtBox_HoraFim2_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio2_Tarde
+            // 
+            this.TxtBox_HoraIncio2_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio2_Tarde.Location = new System.Drawing.Point(12, 132);
+            this.TxtBox_HoraIncio2_Tarde.Name = "TxtBox_HoraIncio2_Tarde";
+            this.TxtBox_HoraIncio2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio2_Tarde.TabIndex = 38;
+            this.TxtBox_HoraIncio2_Tarde.Text = "16:00";
+            this.TxtBox_HoraIncio2_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar2_Tarde
+            // 
+            this.ButtonSalvar2_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar2_Tarde.Location = new System.Drawing.Point(964, 131);
+            this.ButtonSalvar2_Tarde.Name = "ButtonSalvar2_Tarde";
+            this.ButtonSalvar2_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar2_Tarde.TabIndex = 37;
+            this.ButtonSalvar2_Tarde.Text = "Salvar";
+            this.ButtonSalvar2_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar2_Tarde.Click += new System.EventHandler(this.ButtonSalvar2_Tarde_Click);
+            // 
+            // TxtBox_Tempo2_Tarde
+            // 
+            this.TxtBox_Tempo2_Tarde.Location = new System.Drawing.Point(860, 132);
+            this.TxtBox_Tempo2_Tarde.Name = "TxtBox_Tempo2_Tarde";
+            this.TxtBox_Tempo2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo2_Tarde.TabIndex = 36;
+            // 
+            // TxtBox_Equipamento2_Tarde
+            // 
+            this.TxtBox_Equipamento2_Tarde.Location = new System.Drawing.Point(727, 132);
+            this.TxtBox_Equipamento2_Tarde.Name = "TxtBox_Equipamento2_Tarde";
+            this.TxtBox_Equipamento2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento2_Tarde.TabIndex = 35;
+            // 
+            // TxtBox_Retrabalho2_Tarde
+            // 
+            this.TxtBox_Retrabalho2_Tarde.Location = new System.Drawing.Point(606, 132);
+            this.TxtBox_Retrabalho2_Tarde.Name = "TxtBox_Retrabalho2_Tarde";
+            this.TxtBox_Retrabalho2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho2_Tarde.TabIndex = 34;
+            // 
+            // TxtBox_Producao2_Tarde
+            // 
+            this.TxtBox_Producao2_Tarde.Location = new System.Drawing.Point(494, 132);
+            this.TxtBox_Producao2_Tarde.Name = "TxtBox_Producao2_Tarde";
+            this.TxtBox_Producao2_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao2_Tarde.TabIndex = 33;
+            // 
+            // CBBox_Descricao2_Tarde
+            // 
+            this.CBBox_Descricao2_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao2_Tarde.Location = new System.Drawing.Point(302, 132);
+            this.CBBox_Descricao2_Tarde.Name = "CBBox_Descricao2_Tarde";
+            this.CBBox_Descricao2_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao2_Tarde.TabIndex = 32;
+            this.CBBox_Descricao2_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao2_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod2_Tarde
+            // 
+            this.CBBox_Cod2_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod2_Tarde.Location = new System.Drawing.Point(257, 132);
+            this.CBBox_Cod2_Tarde.Name = "CBBox_Cod2_Tarde";
+            this.CBBox_Cod2_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod2_Tarde.TabIndex = 31;
+            this.CBBox_Cod2_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod2_Tarde_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim1_Tarde
+            // 
+            this.TxtBox_HoraFim1_Tarde.Enabled = false;
+            this.TxtBox_HoraFim1_Tarde.Location = new System.Drawing.Point(126, 78);
+            this.TxtBox_HoraFim1_Tarde.Name = "TxtBox_HoraFim1_Tarde";
+            this.TxtBox_HoraFim1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim1_Tarde.TabIndex = 30;
+            this.TxtBox_HoraFim1_Tarde.Text = "16:00";
+            this.TxtBox_HoraFim1_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio1_Tarde
+            // 
+            this.TxtBox_HoraIncio1_Tarde.Enabled = false;
+            this.TxtBox_HoraIncio1_Tarde.Location = new System.Drawing.Point(12, 78);
+            this.TxtBox_HoraIncio1_Tarde.Name = "TxtBox_HoraIncio1_Tarde";
+            this.TxtBox_HoraIncio1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio1_Tarde.TabIndex = 29;
+            this.TxtBox_HoraIncio1_Tarde.Text = "15:48";
+            this.TxtBox_HoraIncio1_Tarde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar1_Tarde
+            // 
+            this.ButtonSalvar1_Tarde.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar1_Tarde.Location = new System.Drawing.Point(964, 77);
+            this.ButtonSalvar1_Tarde.Name = "ButtonSalvar1_Tarde";
+            this.ButtonSalvar1_Tarde.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar1_Tarde.TabIndex = 28;
+            this.ButtonSalvar1_Tarde.Text = "Salvar";
+            this.ButtonSalvar1_Tarde.UseVisualStyleBackColor = false;
+            this.ButtonSalvar1_Tarde.Click += new System.EventHandler(this.ButtonSalvar1_Tarde_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(439, 56);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 27;
+            this.pictureBox3.TabStop = false;
+            // 
+            // TxtBox_Tempo1_Tarde
+            // 
+            this.TxtBox_Tempo1_Tarde.Location = new System.Drawing.Point(860, 78);
+            this.TxtBox_Tempo1_Tarde.Name = "TxtBox_Tempo1_Tarde";
+            this.TxtBox_Tempo1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo1_Tarde.TabIndex = 26;
+            // 
+            // TxtBox_Equipamento1_Tarde
+            // 
+            this.TxtBox_Equipamento1_Tarde.Location = new System.Drawing.Point(727, 78);
+            this.TxtBox_Equipamento1_Tarde.Name = "TxtBox_Equipamento1_Tarde";
+            this.TxtBox_Equipamento1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento1_Tarde.TabIndex = 25;
+            // 
+            // TxtBox_Retrabalho1_Tarde
+            // 
+            this.TxtBox_Retrabalho1_Tarde.Location = new System.Drawing.Point(606, 78);
+            this.TxtBox_Retrabalho1_Tarde.Name = "TxtBox_Retrabalho1_Tarde";
+            this.TxtBox_Retrabalho1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho1_Tarde.TabIndex = 24;
+            // 
+            // TxtBox_Producao1_Tarde
+            // 
+            this.TxtBox_Producao1_Tarde.Location = new System.Drawing.Point(494, 78);
+            this.TxtBox_Producao1_Tarde.Name = "TxtBox_Producao1_Tarde";
+            this.TxtBox_Producao1_Tarde.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao1_Tarde.TabIndex = 23;
+            // 
+            // CBBox_Descricao1_Tarde
+            // 
+            this.CBBox_Descricao1_Tarde.FormattingEnabled = true;
+            this.CBBox_Descricao1_Tarde.Location = new System.Drawing.Point(302, 78);
+            this.CBBox_Descricao1_Tarde.Name = "CBBox_Descricao1_Tarde";
+            this.CBBox_Descricao1_Tarde.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao1_Tarde.TabIndex = 22;
+            this.CBBox_Descricao1_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao1_Tarde_SelectedIndexChanged);
+            // 
+            // CBBox_Cod1_Tarde
+            // 
+            this.CBBox_Cod1_Tarde.FormattingEnabled = true;
+            this.CBBox_Cod1_Tarde.Location = new System.Drawing.Point(257, 78);
+            this.CBBox_Cod1_Tarde.Name = "CBBox_Cod1_Tarde";
+            this.CBBox_Cod1_Tarde.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod1_Tarde.TabIndex = 21;
+            this.CBBox_Cod1_Tarde.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod1_Tarde_SelectedIndexChanged);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(860, 56);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(43, 15);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "Tempo";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(727, 56);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(78, 15);
+            this.label25.TabIndex = 19;
+            this.label25.Text = "Equipamento";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(606, 56);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(64, 15);
+            this.label27.TabIndex = 18;
+            this.label27.Text = "Retrabalho";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(494, 56);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(58, 15);
+            this.label28.TabIndex = 17;
+            this.label28.Text = "Produção";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(257, 56);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(163, 15);
+            this.label29.TabIndex = 16;
+            this.label29.Text = "Código - Descrição da parada";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(130, 476);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(70, 15);
+            this.label30.TabIndex = 15;
+            this.label30.Text = "Horario Fim";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(130, 408);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(70, 15);
+            this.label31.TabIndex = 14;
+            this.label31.Text = "Horario Fim";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(130, 344);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(70, 15);
+            this.label32.TabIndex = 13;
+            this.label32.Text = "Horario Fim";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(130, 285);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(70, 15);
+            this.label33.TabIndex = 12;
+            this.label33.Text = "Horario Fim";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(130, 226);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(70, 15);
+            this.label34.TabIndex = 11;
+            this.label34.Text = "Horario Fim";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(130, 168);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(70, 15);
+            this.label35.TabIndex = 10;
+            this.label35.Text = "Horario Fim";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(130, 111);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(70, 15);
+            this.label36.TabIndex = 9;
+            this.label36.Text = "Horario Fim";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(130, 56);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(70, 15);
+            this.label37.TabIndex = 8;
+            this.label37.Text = "Horario Fim";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(10, 476);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(79, 15);
+            this.label38.TabIndex = 7;
+            this.label38.Text = "Horario Inicio";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(10, 408);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(79, 15);
+            this.label39.TabIndex = 6;
+            this.label39.Text = "Horario Inicio";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(10, 344);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(79, 15);
+            this.label40.TabIndex = 5;
+            this.label40.Text = "Horario Inicio";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(10, 285);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(79, 15);
+            this.label41.TabIndex = 4;
+            this.label41.Text = "Horario Inicio";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(10, 226);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(79, 15);
+            this.label42.TabIndex = 3;
+            this.label42.Text = "Horario Inicio";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(10, 168);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(79, 15);
+            this.label43.TabIndex = 2;
+            this.label43.Text = "Horario Inicio";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(10, 111);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(79, 15);
+            this.label44.TabIndex = 1;
+            this.label44.Text = "Horario Inicio";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(10, 56);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(79, 15);
+            this.label45.TabIndex = 0;
+            this.label45.Text = "Horario Inicio";
+            // 
+            // GroupTurno_Noite
+            // 
+            this.GroupTurno_Noite.AutoSize = true;
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraFim5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraIncio5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.ButtonSalvar5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Tempo5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Equipamento5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Retrabalho5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Producao5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Descricao5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Cod5_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraFim4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraIncio4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.ButtonSalvar4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Tempo4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Equipamento4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Retrabalho4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Producao4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Descricao4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Cod4_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraFim3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraIncio3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.ButtonSalvar3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Tempo3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Equipamento3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Retrabalho3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Producao3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Descricao3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Cod3_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraFim2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraIncio2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.ButtonSalvar2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Tempo2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Equipamento2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Retrabalho2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Producao2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Descricao2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Cod2_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraFim1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_HoraIncio1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.ButtonSalvar1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.Picture_Question);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Tempo1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Equipamento1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Retrabalho1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.TxtBox_Producao1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Descricao1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.CBBox_Cod1_Noite);
+            this.GroupTurno_Noite.Controls.Add(this.label46);
+            this.GroupTurno_Noite.Controls.Add(this.label47);
+            this.GroupTurno_Noite.Controls.Add(this.label48);
+            this.GroupTurno_Noite.Controls.Add(this.label49);
+            this.GroupTurno_Noite.Controls.Add(this.label50);
+            this.GroupTurno_Noite.Controls.Add(this.label54);
+            this.GroupTurno_Noite.Controls.Add(this.label55);
+            this.GroupTurno_Noite.Controls.Add(this.label56);
+            this.GroupTurno_Noite.Controls.Add(this.label57);
+            this.GroupTurno_Noite.Controls.Add(this.label58);
+            this.GroupTurno_Noite.Controls.Add(this.label62);
+            this.GroupTurno_Noite.Controls.Add(this.label63);
+            this.GroupTurno_Noite.Controls.Add(this.label64);
+            this.GroupTurno_Noite.Controls.Add(this.label65);
+            this.GroupTurno_Noite.Controls.Add(this.label66);
+            this.GroupTurno_Noite.Location = new System.Drawing.Point(12, 190);
+            this.GroupTurno_Noite.Name = "GroupTurno_Noite";
+            this.GroupTurno_Noite.Size = new System.Drawing.Size(1127, 1516);
+            this.GroupTurno_Noite.TabIndex = 95;
+            this.GroupTurno_Noite.TabStop = false;
+            this.GroupTurno_Noite.Text = "Turno - Noite";
+            this.GroupTurno_Noite.Visible = false;
+            // 
+            // TxtBox_HoraFim5_Noite
+            // 
+            this.TxtBox_HoraFim5_Noite.Enabled = false;
+            this.TxtBox_HoraFim5_Noite.Location = new System.Drawing.Point(126, 306);
+            this.TxtBox_HoraFim5_Noite.Name = "TxtBox_HoraFim5_Noite";
+            this.TxtBox_HoraFim5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim5_Noite.TabIndex = 66;
+            this.TxtBox_HoraFim5_Noite.Text = "06:00";
+            this.TxtBox_HoraFim5_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio5_Noite
+            // 
+            this.TxtBox_HoraIncio5_Noite.Enabled = false;
+            this.TxtBox_HoraIncio5_Noite.Location = new System.Drawing.Point(12, 306);
+            this.TxtBox_HoraIncio5_Noite.Name = "TxtBox_HoraIncio5_Noite";
+            this.TxtBox_HoraIncio5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio5_Noite.TabIndex = 65;
+            this.TxtBox_HoraIncio5_Noite.Text = "05:00";
+            this.TxtBox_HoraIncio5_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar5_Noite
+            // 
+            this.ButtonSalvar5_Noite.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar5_Noite.Location = new System.Drawing.Point(964, 305);
+            this.ButtonSalvar5_Noite.Name = "ButtonSalvar5_Noite";
+            this.ButtonSalvar5_Noite.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar5_Noite.TabIndex = 64;
+            this.ButtonSalvar5_Noite.Text = "Salvar";
+            this.ButtonSalvar5_Noite.UseVisualStyleBackColor = false;
+            this.ButtonSalvar5_Noite.Click += new System.EventHandler(this.ButtonSalvar5_Noite_Click);
+            // 
+            // TxtBox_Tempo5_Noite
+            // 
+            this.TxtBox_Tempo5_Noite.Location = new System.Drawing.Point(860, 306);
+            this.TxtBox_Tempo5_Noite.Name = "TxtBox_Tempo5_Noite";
+            this.TxtBox_Tempo5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo5_Noite.TabIndex = 63;
+            // 
+            // TxtBox_Equipamento5_Noite
+            // 
+            this.TxtBox_Equipamento5_Noite.Location = new System.Drawing.Point(727, 306);
+            this.TxtBox_Equipamento5_Noite.Name = "TxtBox_Equipamento5_Noite";
+            this.TxtBox_Equipamento5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento5_Noite.TabIndex = 62;
+            // 
+            // TxtBox_Retrabalho5_Noite
+            // 
+            this.TxtBox_Retrabalho5_Noite.Location = new System.Drawing.Point(606, 306);
+            this.TxtBox_Retrabalho5_Noite.Name = "TxtBox_Retrabalho5_Noite";
+            this.TxtBox_Retrabalho5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho5_Noite.TabIndex = 61;
+            // 
+            // TxtBox_Producao5_Noite
+            // 
+            this.TxtBox_Producao5_Noite.Location = new System.Drawing.Point(494, 306);
+            this.TxtBox_Producao5_Noite.Name = "TxtBox_Producao5_Noite";
+            this.TxtBox_Producao5_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao5_Noite.TabIndex = 60;
+            // 
+            // CBBox_Descricao5_Noite
+            // 
+            this.CBBox_Descricao5_Noite.FormattingEnabled = true;
+            this.CBBox_Descricao5_Noite.Location = new System.Drawing.Point(302, 306);
+            this.CBBox_Descricao5_Noite.Name = "CBBox_Descricao5_Noite";
+            this.CBBox_Descricao5_Noite.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao5_Noite.TabIndex = 59;
+            this.CBBox_Descricao5_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao5_Noite_SelectedIndexChanged);
+            // 
+            // CBBox_Cod5_Noite
+            // 
+            this.CBBox_Cod5_Noite.FormattingEnabled = true;
+            this.CBBox_Cod5_Noite.Location = new System.Drawing.Point(257, 306);
+            this.CBBox_Cod5_Noite.Name = "CBBox_Cod5_Noite";
+            this.CBBox_Cod5_Noite.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod5_Noite.TabIndex = 58;
+            this.CBBox_Cod5_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod5_Noite_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim4_Noite
+            // 
+            this.TxtBox_HoraFim4_Noite.Enabled = false;
+            this.TxtBox_HoraFim4_Noite.Location = new System.Drawing.Point(126, 249);
+            this.TxtBox_HoraFim4_Noite.Name = "TxtBox_HoraFim4_Noite";
+            this.TxtBox_HoraFim4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim4_Noite.TabIndex = 57;
+            this.TxtBox_HoraFim4_Noite.Text = "05:00";
+            this.TxtBox_HoraFim4_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio4_Noite
+            // 
+            this.TxtBox_HoraIncio4_Noite.Enabled = false;
+            this.TxtBox_HoraIncio4_Noite.Location = new System.Drawing.Point(12, 249);
+            this.TxtBox_HoraIncio4_Noite.Name = "TxtBox_HoraIncio4_Noite";
+            this.TxtBox_HoraIncio4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio4_Noite.TabIndex = 56;
+            this.TxtBox_HoraIncio4_Noite.Text = "04:00";
+            this.TxtBox_HoraIncio4_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar4_Noite
+            // 
+            this.ButtonSalvar4_Noite.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar4_Noite.Location = new System.Drawing.Point(964, 248);
+            this.ButtonSalvar4_Noite.Name = "ButtonSalvar4_Noite";
+            this.ButtonSalvar4_Noite.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar4_Noite.TabIndex = 55;
+            this.ButtonSalvar4_Noite.Text = "Salvar";
+            this.ButtonSalvar4_Noite.UseVisualStyleBackColor = false;
+            this.ButtonSalvar4_Noite.Click += new System.EventHandler(this.ButtonSalvar4_Noite_Click);
+            // 
+            // TxtBox_Tempo4_Noite
+            // 
+            this.TxtBox_Tempo4_Noite.Location = new System.Drawing.Point(860, 249);
+            this.TxtBox_Tempo4_Noite.Name = "TxtBox_Tempo4_Noite";
+            this.TxtBox_Tempo4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo4_Noite.TabIndex = 54;
+            // 
+            // TxtBox_Equipamento4_Noite
+            // 
+            this.TxtBox_Equipamento4_Noite.Location = new System.Drawing.Point(727, 249);
+            this.TxtBox_Equipamento4_Noite.Name = "TxtBox_Equipamento4_Noite";
+            this.TxtBox_Equipamento4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento4_Noite.TabIndex = 53;
+            // 
+            // TxtBox_Retrabalho4_Noite
+            // 
+            this.TxtBox_Retrabalho4_Noite.Location = new System.Drawing.Point(606, 249);
+            this.TxtBox_Retrabalho4_Noite.Name = "TxtBox_Retrabalho4_Noite";
+            this.TxtBox_Retrabalho4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho4_Noite.TabIndex = 52;
+            // 
+            // TxtBox_Producao4_Noite
+            // 
+            this.TxtBox_Producao4_Noite.Location = new System.Drawing.Point(494, 249);
+            this.TxtBox_Producao4_Noite.Name = "TxtBox_Producao4_Noite";
+            this.TxtBox_Producao4_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao4_Noite.TabIndex = 51;
+            // 
+            // CBBox_Descricao4_Noite
+            // 
+            this.CBBox_Descricao4_Noite.FormattingEnabled = true;
+            this.CBBox_Descricao4_Noite.Location = new System.Drawing.Point(302, 249);
+            this.CBBox_Descricao4_Noite.Name = "CBBox_Descricao4_Noite";
+            this.CBBox_Descricao4_Noite.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao4_Noite.TabIndex = 50;
+            this.CBBox_Descricao4_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao4_Noite_SelectedIndexChanged);
+            // 
+            // CBBox_Cod4_Noite
+            // 
+            this.CBBox_Cod4_Noite.FormattingEnabled = true;
+            this.CBBox_Cod4_Noite.Location = new System.Drawing.Point(257, 249);
+            this.CBBox_Cod4_Noite.Name = "CBBox_Cod4_Noite";
+            this.CBBox_Cod4_Noite.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod4_Noite.TabIndex = 49;
+            this.CBBox_Cod4_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod4_Noite_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim3_Noite
+            // 
+            this.TxtBox_HoraFim3_Noite.Enabled = false;
+            this.TxtBox_HoraFim3_Noite.Location = new System.Drawing.Point(126, 189);
+            this.TxtBox_HoraFim3_Noite.Name = "TxtBox_HoraFim3_Noite";
+            this.TxtBox_HoraFim3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim3_Noite.TabIndex = 48;
+            this.TxtBox_HoraFim3_Noite.Text = "04:00";
+            this.TxtBox_HoraFim3_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio3_Noite
+            // 
+            this.TxtBox_HoraIncio3_Noite.Enabled = false;
+            this.TxtBox_HoraIncio3_Noite.Location = new System.Drawing.Point(12, 189);
+            this.TxtBox_HoraIncio3_Noite.Name = "TxtBox_HoraIncio3_Noite";
+            this.TxtBox_HoraIncio3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio3_Noite.TabIndex = 47;
+            this.TxtBox_HoraIncio3_Noite.Text = "03:00";
+            this.TxtBox_HoraIncio3_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar3_Noite
+            // 
+            this.ButtonSalvar3_Noite.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar3_Noite.Location = new System.Drawing.Point(964, 188);
+            this.ButtonSalvar3_Noite.Name = "ButtonSalvar3_Noite";
+            this.ButtonSalvar3_Noite.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar3_Noite.TabIndex = 46;
+            this.ButtonSalvar3_Noite.Text = "Salvar";
+            this.ButtonSalvar3_Noite.UseVisualStyleBackColor = false;
+            this.ButtonSalvar3_Noite.Click += new System.EventHandler(this.ButtonSalvar3_Noite_Click);
+            // 
+            // TxtBox_Tempo3_Noite
+            // 
+            this.TxtBox_Tempo3_Noite.Location = new System.Drawing.Point(860, 189);
+            this.TxtBox_Tempo3_Noite.Name = "TxtBox_Tempo3_Noite";
+            this.TxtBox_Tempo3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo3_Noite.TabIndex = 45;
+            // 
+            // TxtBox_Equipamento3_Noite
+            // 
+            this.TxtBox_Equipamento3_Noite.Location = new System.Drawing.Point(727, 189);
+            this.TxtBox_Equipamento3_Noite.Name = "TxtBox_Equipamento3_Noite";
+            this.TxtBox_Equipamento3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento3_Noite.TabIndex = 44;
+            // 
+            // TxtBox_Retrabalho3_Noite
+            // 
+            this.TxtBox_Retrabalho3_Noite.Location = new System.Drawing.Point(606, 189);
+            this.TxtBox_Retrabalho3_Noite.Name = "TxtBox_Retrabalho3_Noite";
+            this.TxtBox_Retrabalho3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho3_Noite.TabIndex = 43;
+            // 
+            // TxtBox_Producao3_Noite
+            // 
+            this.TxtBox_Producao3_Noite.Location = new System.Drawing.Point(494, 189);
+            this.TxtBox_Producao3_Noite.Name = "TxtBox_Producao3_Noite";
+            this.TxtBox_Producao3_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao3_Noite.TabIndex = 42;
+            // 
+            // CBBox_Descricao3_Noite
+            // 
+            this.CBBox_Descricao3_Noite.FormattingEnabled = true;
+            this.CBBox_Descricao3_Noite.Location = new System.Drawing.Point(302, 189);
+            this.CBBox_Descricao3_Noite.Name = "CBBox_Descricao3_Noite";
+            this.CBBox_Descricao3_Noite.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao3_Noite.TabIndex = 41;
+            this.CBBox_Descricao3_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao3_Noite_SelectedIndexChanged);
+            // 
+            // CBBox_Cod3_Noite
+            // 
+            this.CBBox_Cod3_Noite.FormattingEnabled = true;
+            this.CBBox_Cod3_Noite.Location = new System.Drawing.Point(257, 189);
+            this.CBBox_Cod3_Noite.Name = "CBBox_Cod3_Noite";
+            this.CBBox_Cod3_Noite.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod3_Noite.TabIndex = 40;
+            this.CBBox_Cod3_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod3_Noite_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim2_Noite
+            // 
+            this.TxtBox_HoraFim2_Noite.Enabled = false;
+            this.TxtBox_HoraFim2_Noite.Location = new System.Drawing.Point(126, 132);
+            this.TxtBox_HoraFim2_Noite.Name = "TxtBox_HoraFim2_Noite";
+            this.TxtBox_HoraFim2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim2_Noite.TabIndex = 39;
+            this.TxtBox_HoraFim2_Noite.Text = "03:00";
+            this.TxtBox_HoraFim2_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio2_Noite
+            // 
+            this.TxtBox_HoraIncio2_Noite.Enabled = false;
+            this.TxtBox_HoraIncio2_Noite.Location = new System.Drawing.Point(12, 132);
+            this.TxtBox_HoraIncio2_Noite.Name = "TxtBox_HoraIncio2_Noite";
+            this.TxtBox_HoraIncio2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio2_Noite.TabIndex = 38;
+            this.TxtBox_HoraIncio2_Noite.Text = "02:00";
+            this.TxtBox_HoraIncio2_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar2_Noite
+            // 
+            this.ButtonSalvar2_Noite.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar2_Noite.Location = new System.Drawing.Point(964, 131);
+            this.ButtonSalvar2_Noite.Name = "ButtonSalvar2_Noite";
+            this.ButtonSalvar2_Noite.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar2_Noite.TabIndex = 37;
+            this.ButtonSalvar2_Noite.Text = "Salvar";
+            this.ButtonSalvar2_Noite.UseVisualStyleBackColor = false;
+            this.ButtonSalvar2_Noite.Click += new System.EventHandler(this.ButtonSalvar2_Noite_Click);
+            // 
+            // TxtBox_Tempo2_Noite
+            // 
+            this.TxtBox_Tempo2_Noite.Location = new System.Drawing.Point(860, 132);
+            this.TxtBox_Tempo2_Noite.Name = "TxtBox_Tempo2_Noite";
+            this.TxtBox_Tempo2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo2_Noite.TabIndex = 36;
+            // 
+            // TxtBox_Equipamento2_Noite
+            // 
+            this.TxtBox_Equipamento2_Noite.Location = new System.Drawing.Point(727, 132);
+            this.TxtBox_Equipamento2_Noite.Name = "TxtBox_Equipamento2_Noite";
+            this.TxtBox_Equipamento2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento2_Noite.TabIndex = 35;
+            // 
+            // TxtBox_Retrabalho2_Noite
+            // 
+            this.TxtBox_Retrabalho2_Noite.Location = new System.Drawing.Point(606, 132);
+            this.TxtBox_Retrabalho2_Noite.Name = "TxtBox_Retrabalho2_Noite";
+            this.TxtBox_Retrabalho2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho2_Noite.TabIndex = 34;
+            // 
+            // TxtBox_Producao2_Noite
+            // 
+            this.TxtBox_Producao2_Noite.Location = new System.Drawing.Point(494, 132);
+            this.TxtBox_Producao2_Noite.Name = "TxtBox_Producao2_Noite";
+            this.TxtBox_Producao2_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao2_Noite.TabIndex = 33;
+            // 
+            // CBBox_Descricao2_Noite
+            // 
+            this.CBBox_Descricao2_Noite.FormattingEnabled = true;
+            this.CBBox_Descricao2_Noite.Location = new System.Drawing.Point(302, 132);
+            this.CBBox_Descricao2_Noite.Name = "CBBox_Descricao2_Noite";
+            this.CBBox_Descricao2_Noite.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao2_Noite.TabIndex = 32;
+            this.CBBox_Descricao2_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao2_Noite_SelectedIndexChanged);
+            // 
+            // CBBox_Cod2_Noite
+            // 
+            this.CBBox_Cod2_Noite.FormattingEnabled = true;
+            this.CBBox_Cod2_Noite.Location = new System.Drawing.Point(257, 132);
+            this.CBBox_Cod2_Noite.Name = "CBBox_Cod2_Noite";
+            this.CBBox_Cod2_Noite.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod2_Noite.TabIndex = 31;
+            this.CBBox_Cod2_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod2_Noite_SelectedIndexChanged);
+            // 
+            // TxtBox_HoraFim1_Noite
+            // 
+            this.TxtBox_HoraFim1_Noite.Enabled = false;
+            this.TxtBox_HoraFim1_Noite.Location = new System.Drawing.Point(126, 78);
+            this.TxtBox_HoraFim1_Noite.Name = "TxtBox_HoraFim1_Noite";
+            this.TxtBox_HoraFim1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraFim1_Noite.TabIndex = 30;
+            this.TxtBox_HoraFim1_Noite.Text = "02:00";
+            this.TxtBox_HoraFim1_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TxtBox_HoraIncio1_Noite
+            // 
+            this.TxtBox_HoraIncio1_Noite.Enabled = false;
+            this.TxtBox_HoraIncio1_Noite.Location = new System.Drawing.Point(12, 78);
+            this.TxtBox_HoraIncio1_Noite.Name = "TxtBox_HoraIncio1_Noite";
+            this.TxtBox_HoraIncio1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_HoraIncio1_Noite.TabIndex = 29;
+            this.TxtBox_HoraIncio1_Noite.Text = "01:09";
+            this.TxtBox_HoraIncio1_Noite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ButtonSalvar1_Noite
+            // 
+            this.ButtonSalvar1_Noite.BackColor = System.Drawing.Color.Transparent;
+            this.ButtonSalvar1_Noite.Location = new System.Drawing.Point(964, 77);
+            this.ButtonSalvar1_Noite.Name = "ButtonSalvar1_Noite";
+            this.ButtonSalvar1_Noite.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSalvar1_Noite.TabIndex = 28;
+            this.ButtonSalvar1_Noite.Text = "Salvar";
+            this.ButtonSalvar1_Noite.UseVisualStyleBackColor = false;
+            this.ButtonSalvar1_Noite.Click += new System.EventHandler(this.ButtonSalvar1_Noite_Click);
+            // 
+            // Picture_Question
+            // 
+            this.Picture_Question.Image = ((System.Drawing.Image)(resources.GetObject("Picture_Question.Image")));
+            this.Picture_Question.Location = new System.Drawing.Point(439, 56);
+            this.Picture_Question.Name = "Picture_Question";
+            this.Picture_Question.Size = new System.Drawing.Size(18, 17);
+            this.Picture_Question.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Picture_Question.TabIndex = 27;
+            this.Picture_Question.TabStop = false;
+            // 
+            // TxtBox_Tempo1_Noite
+            // 
+            this.TxtBox_Tempo1_Noite.Location = new System.Drawing.Point(860, 78);
+            this.TxtBox_Tempo1_Noite.Name = "TxtBox_Tempo1_Noite";
+            this.TxtBox_Tempo1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Tempo1_Noite.TabIndex = 26;
+            // 
+            // TxtBox_Equipamento1_Noite
+            // 
+            this.TxtBox_Equipamento1_Noite.Location = new System.Drawing.Point(727, 78);
+            this.TxtBox_Equipamento1_Noite.Name = "TxtBox_Equipamento1_Noite";
+            this.TxtBox_Equipamento1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Equipamento1_Noite.TabIndex = 25;
+            // 
+            // TxtBox_Retrabalho1_Noite
+            // 
+            this.TxtBox_Retrabalho1_Noite.Location = new System.Drawing.Point(606, 78);
+            this.TxtBox_Retrabalho1_Noite.Name = "TxtBox_Retrabalho1_Noite";
+            this.TxtBox_Retrabalho1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Retrabalho1_Noite.TabIndex = 24;
+            // 
+            // TxtBox_Producao1_Noite
+            // 
+            this.TxtBox_Producao1_Noite.Location = new System.Drawing.Point(494, 78);
+            this.TxtBox_Producao1_Noite.Name = "TxtBox_Producao1_Noite";
+            this.TxtBox_Producao1_Noite.Size = new System.Drawing.Size(74, 23);
+            this.TxtBox_Producao1_Noite.TabIndex = 23;
+            // 
+            // CBBox_Descricao1_Noite
+            // 
+            this.CBBox_Descricao1_Noite.FormattingEnabled = true;
+            this.CBBox_Descricao1_Noite.Location = new System.Drawing.Point(302, 78);
+            this.CBBox_Descricao1_Noite.Name = "CBBox_Descricao1_Noite";
+            this.CBBox_Descricao1_Noite.Size = new System.Drawing.Size(167, 23);
+            this.CBBox_Descricao1_Noite.TabIndex = 22;
+            this.CBBox_Descricao1_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Descricao1_Noite_SelectedIndexChanged);
+            // 
+            // CBBox_Cod1_Noite
+            // 
+            this.CBBox_Cod1_Noite.FormattingEnabled = true;
+            this.CBBox_Cod1_Noite.Location = new System.Drawing.Point(257, 78);
+            this.CBBox_Cod1_Noite.Name = "CBBox_Cod1_Noite";
+            this.CBBox_Cod1_Noite.Size = new System.Drawing.Size(39, 23);
+            this.CBBox_Cod1_Noite.TabIndex = 21;
+            this.CBBox_Cod1_Noite.SelectedIndexChanged += new System.EventHandler(this.CBBox_Cod1_Noite_SelectedIndexChanged);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(860, 56);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(43, 15);
+            this.label46.TabIndex = 20;
+            this.label46.Text = "Tempo";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(727, 56);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(78, 15);
+            this.label47.TabIndex = 19;
+            this.label47.Text = "Equipamento";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(606, 56);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(64, 15);
+            this.label48.TabIndex = 18;
+            this.label48.Text = "Retrabalho";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(494, 56);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(58, 15);
+            this.label49.TabIndex = 17;
+            this.label49.Text = "Produção";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(257, 56);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(163, 15);
+            this.label50.TabIndex = 16;
+            this.label50.Text = "Código - Descrição da parada";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(130, 285);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(70, 15);
+            this.label54.TabIndex = 12;
+            this.label54.Text = "Horario Fim";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(130, 226);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(70, 15);
+            this.label55.TabIndex = 11;
+            this.label55.Text = "Horario Fim";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(130, 168);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(70, 15);
+            this.label56.TabIndex = 10;
+            this.label56.Text = "Horario Fim";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(130, 111);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(70, 15);
+            this.label57.TabIndex = 9;
+            this.label57.Text = "Horario Fim";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(130, 56);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(70, 15);
+            this.label58.TabIndex = 8;
+            this.label58.Text = "Horario Fim";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(10, 285);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(79, 15);
+            this.label62.TabIndex = 4;
+            this.label62.Text = "Horario Inicio";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(10, 226);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(79, 15);
+            this.label63.TabIndex = 3;
+            this.label63.Text = "Horario Inicio";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(10, 168);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(79, 15);
+            this.label64.TabIndex = 2;
+            this.label64.Text = "Horario Inicio";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(10, 111);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(79, 15);
+            this.label65.TabIndex = 1;
+            this.label65.Text = "Horario Inicio";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(10, 56);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(79, 15);
+            this.label66.TabIndex = 0;
+            this.label66.Text = "Horario Inicio";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1007, 22);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 98;
+            this.pictureBox4.TabStop = false;
+            // 
+            // ButtonLogout
+            // 
+            this.ButtonLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ButtonLogout.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ButtonLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ButtonLogout.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.ButtonLogout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.ButtonLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.ButtonLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonLogout.ForeColor = System.Drawing.Color.DimGray;
+            this.ButtonLogout.Location = new System.Drawing.Point(1037, 22);
+            this.ButtonLogout.Name = "ButtonLogout";
+            this.ButtonLogout.Size = new System.Drawing.Size(75, 26);
+            this.ButtonLogout.TabIndex = 97;
+            this.ButtonLogout.Text = "Logout";
+            this.ButtonLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ButtonLogout.UseVisualStyleBackColor = false;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1503, 816);
+            this.ClientSize = new System.Drawing.Size(1503, 1008);
+            this.Controls.Add(this.GroupTurno_Noite);
+            this.Controls.Add(this.GroupTurno_Tarde);
             this.Controls.Add(this.GroupTurno_Manha);
             this.Controls.Add(this.GrupoWellcome);
             this.Controls.Add(this.Lb_user);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HBH - Hour by Hour";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -2188,10 +3263,14 @@ namespace Marelli___Hour_by_Hour
             this.GrupoWellcome.PerformLayout();
             this.GroupTurno_Manha.ResumeLayout(false);
             this.GroupTurno_Manha.PerformLayout();
-            this.GrupBox_TurnoTarde.ResumeLayout(false);
-            this.GrupBox_TurnoTarde.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.GroupTurno_Tarde.ResumeLayout(false);
+            this.GroupTurno_Tarde.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.GroupTurno_Noite.ResumeLayout(false);
+            this.GroupTurno_Noite.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picture_Question)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2304,80 +3383,8 @@ namespace Marelli___Hour_by_Hour
         private System.Windows.Forms.TextBox TxtBox_Producao2_Manha;
         private System.Windows.Forms.ComboBox CBBox_Descricao2_Manha;
         private System.Windows.Forms.ComboBox CBBox_Cod2_Manha;
-        private System.Windows.Forms.GroupBox GrupBox_TurnoTarde;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.GroupBox GroupTurno_Tarde;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox16;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label27;
@@ -2399,6 +3406,175 @@ namespace Marelli___Hour_by_Hour
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.GroupBox GroupTurno_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio5_Noite;
+        private System.Windows.Forms.Button ButtonSalvar5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Tempo5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Producao5_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Descricao5_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Cod5_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio4_Noite;
+        private System.Windows.Forms.Button ButtonSalvar4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Tempo4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Producao4_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Descricao4_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Cod4_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio3_Noite;
+        private System.Windows.Forms.Button ButtonSalvar3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Tempo3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Producao3_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Descricao3_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Cod3_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio2_Noite;
+        private System.Windows.Forms.Button ButtonSalvar2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Tempo2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Producao2_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Descricao2_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Cod2_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim1_Noite;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio1_Noite;
+        private System.Windows.Forms.Button ButtonSalvar1_Noite;
+        private System.Windows.Forms.PictureBox Picture_Question;
+        private System.Windows.Forms.TextBox TxtBox_Tempo1_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento1_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho1_Noite;
+        private System.Windows.Forms.TextBox TxtBox_Producao1_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Descricao1_Noite;
+        private System.Windows.Forms.ComboBox CBBox_Cod1_Noite;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio8_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao8_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao8_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod8_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio7_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao7_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao7_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod7_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio6_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao6_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao6_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod6_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio5_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao5_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao5_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod5_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio4_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao4_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao4_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod4_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio3_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao3_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao3_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod3_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio2_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao2_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao2_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod2_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio1_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao1_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao1_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod1_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio10_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao10_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao10_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod10_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraFim9_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_HoraIncio9_Tarde;
+        public System.Windows.Forms.Button ButtonSalvar9_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Tempo9_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Equipamento9_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Retrabalho9_Tarde;
+        public System.Windows.Forms.TextBox TxtBox_Producao9_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Descricao9_Tarde;
+        public System.Windows.Forms.ComboBox CBBox_Cod9_Tarde;
+        private System.Windows.Forms.TextBox TxtBox_HoraFim9_Manha;
+        private System.Windows.Forms.TextBox TxtBox_HoraIncio9_Manha;
+        private System.Windows.Forms.Button ButtonSalvar9_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Tempo9_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Equipamento9_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Retrabalho9_Manha;
+        private System.Windows.Forms.TextBox TxtBox_Producao9_Manha;
+        private System.Windows.Forms.ComboBox CBBox_Descricao9_Manha;
+        private System.Windows.Forms.ComboBox CBBox_Cod9_Manha;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button ButtonLogout;
     }
 }
 

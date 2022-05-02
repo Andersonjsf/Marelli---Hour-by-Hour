@@ -156,9 +156,10 @@ namespace Marelli___Hour_by_Hour.Model
                 string Equipamento = InfosRegistar[8].Trim();
                 string Tempo = InfosRegistar[9].Trim();
                 string Turno = InfosRegistar[10].Trim();
+                string Operador = InfosRegistar[11].Trim();
 
 
-                cmd.CommandText = "INSERT INTO [dbo].[Tb_HistoricoRegistro] VALUES( @DtaRegistro, @Id, @HoraInicio, @HoraFim, @CodParada ,@DescricaoParada, @Producao, @Retrabalho, @Equipamento, @Tempo, @Turno)";
+                cmd.CommandText = "INSERT INTO [dbo].[Tb_HistoricoRegistro] VALUES( @DtaRegistro, @Id, @HoraInicio, @HoraFim, @CodParada ,@DescricaoParada, @Producao, @Retrabalho, @Equipamento, @Tempo, @Turno, @Operador)";
                 cmd.Parameters.AddWithValue("@DtaRegistro", DtRegistro);
                 cmd.Parameters.AddWithValue("@Id", Id);
                 cmd.Parameters.AddWithValue("@HoraInicio", HoraInicio);
@@ -170,6 +171,7 @@ namespace Marelli___Hour_by_Hour.Model
                 cmd.Parameters.AddWithValue("@Equipamento", Equipamento);
                 cmd.Parameters.AddWithValue("@Tempo", Tempo);
                 cmd.Parameters.AddWithValue("@Turno", Turno);
+                cmd.Parameters.AddWithValue("@Operador", Operador);
             try
             {
                 cmd.Connection = con.Conectar();

@@ -43,6 +43,7 @@ namespace Marelli___Hour_by_Hour.Viewer
             this.DataGridMotivos.Name = "DataGridMotivos";
             this.DataGridMotivos.ReadOnly = true;
             this.DataGridMotivos.RowTemplate.Height = 25;
+            this.DataGridMotivos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.DataGridMotivos.Size = new System.Drawing.Size(886, 526);
             this.DataGridMotivos.TabIndex = 0;
             // 
