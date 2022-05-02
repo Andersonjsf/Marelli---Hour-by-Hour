@@ -84,9 +84,13 @@ namespace Marelli___Hour_by_Hour.Controller
 
            return Registro;
 
-
-
         }
+
+        public void Log(string User, string IP, string Maquina, string Data)
+        {
+            LoginDao.CadastroLog(User, IP, Maquina, Data);
+        }
+
 
 
 

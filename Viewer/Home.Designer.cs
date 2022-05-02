@@ -36,7 +36,9 @@ namespace Marelli___Hour_by_Hour
             this.ComboBox_Turno = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.GrupoWellcome = new System.Windows.Forms.GroupBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.Lb_OperadorNome = new System.Windows.Forms.Label();
+            this.ButtonLogout = new System.Windows.Forms.Button();
             this.Lb_Operador = new System.Windows.Forms.Label();
             this.Lb_DateToday = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -325,17 +327,15 @@ namespace Marelli___Hour_by_Hour
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.ButtonLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GrupoWellcome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.GroupTurno_Manha.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.GroupTurno_Tarde.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.GroupTurno_Noite.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Question)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -411,6 +411,17 @@ namespace Marelli___Hour_by_Hour
             this.GrupoWellcome.TabStop = false;
             this.GrupoWellcome.Text = "Bem vindo ao HBH";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1007, 22);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 98;
+            this.pictureBox4.TabStop = false;
+            // 
             // Lb_OperadorNome
             // 
             this.Lb_OperadorNome.AutoSize = true;
@@ -420,6 +431,25 @@ namespace Marelli___Hour_by_Hour
             this.Lb_OperadorNome.Size = new System.Drawing.Size(77, 21);
             this.Lb_OperadorNome.TabIndex = 8;
             this.Lb_OperadorNome.Text = "Operador";
+            // 
+            // ButtonLogout
+            // 
+            this.ButtonLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ButtonLogout.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ButtonLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ButtonLogout.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.ButtonLogout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.ButtonLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.ButtonLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonLogout.ForeColor = System.Drawing.Color.DimGray;
+            this.ButtonLogout.Location = new System.Drawing.Point(1037, 22);
+            this.ButtonLogout.Name = "ButtonLogout";
+            this.ButtonLogout.Size = new System.Drawing.Size(75, 26);
+            this.ButtonLogout.TabIndex = 97;
+            this.ButtonLogout.Text = "Logout";
+            this.ButtonLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ButtonLogout.UseVisualStyleBackColor = false;
+            this.ButtonLogout.Click += new System.EventHandler(this.ButtonLogout_Click);
             // 
             // Lb_Operador
             // 
@@ -3209,35 +3239,6 @@ namespace Marelli___Hour_by_Hour
             this.label66.TabIndex = 0;
             this.label66.Text = "Horario Inicio";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1007, 22);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 26);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 98;
-            this.pictureBox4.TabStop = false;
-            // 
-            // ButtonLogout
-            // 
-            this.ButtonLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonLogout.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ButtonLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ButtonLogout.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.ButtonLogout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.ButtonLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
-            this.ButtonLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ButtonLogout.ForeColor = System.Drawing.Color.DimGray;
-            this.ButtonLogout.Location = new System.Drawing.Point(1037, 22);
-            this.ButtonLogout.Name = "ButtonLogout";
-            this.ButtonLogout.Size = new System.Drawing.Size(75, 26);
-            this.ButtonLogout.TabIndex = 97;
-            this.ButtonLogout.Text = "Logout";
-            this.ButtonLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ButtonLogout.UseVisualStyleBackColor = false;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -3253,7 +3254,6 @@ namespace Marelli___Hour_by_Hour
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HBH - Hour by Hour";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -3261,6 +3261,7 @@ namespace Marelli___Hour_by_Hour
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GrupoWellcome.ResumeLayout(false);
             this.GrupoWellcome.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.GroupTurno_Manha.ResumeLayout(false);
             this.GroupTurno_Manha.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -3270,7 +3271,6 @@ namespace Marelli___Hour_by_Hour
             this.GroupTurno_Noite.ResumeLayout(false);
             this.GroupTurno_Noite.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Question)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

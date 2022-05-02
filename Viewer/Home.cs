@@ -1115,7 +1115,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("1");
                 Informações.Add(TxtBox_HoraIncio1_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim1_Manha.Text.Trim());
@@ -1147,7 +1147,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("2");
                 Informações.Add(TxtBox_HoraIncio2_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim2_Manha.Text.Trim());
@@ -1172,7 +1172,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("3");
                 Informações.Add(TxtBox_HoraIncio3_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim3_Manha.Text.Trim());
@@ -1197,7 +1197,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("4");
                 Informações.Add(TxtBox_HoraIncio4_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim4_Manha.Text.Trim());
@@ -1222,7 +1222,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("5");
                 Informações.Add(TxtBox_HoraIncio5_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim5_Manha.Text.Trim());
@@ -1247,7 +1247,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("6");
                 Informações.Add(TxtBox_HoraIncio6_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim6_Manha.Text.Trim());
@@ -1272,7 +1272,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("7");
                 Informações.Add(TxtBox_HoraIncio7_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim7_Manha.Text.Trim());
@@ -1297,7 +1297,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("8");
                 Informações.Add(TxtBox_HoraIncio8_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim8_Manha.Text.Trim());
@@ -1321,7 +1321,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("9");
                 Informações.Add(TxtBox_HoraIncio8_Manha.Text.Trim());
                 Informações.Add(TxtBox_HoraFim8_Manha.Text.Trim());
@@ -1571,7 +1571,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("1");
                 Informações.Add(TxtBox_HoraIncio1_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim1_Tarde.Text.Trim());
@@ -1597,7 +1597,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("2");
                 Informações.Add(TxtBox_HoraIncio2_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim2_Tarde.Text.Trim());
@@ -1622,7 +1622,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("3");
                 Informações.Add(TxtBox_HoraIncio3_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim3_Tarde.Text.Trim());
@@ -1647,7 +1647,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("4");
                 Informações.Add(TxtBox_HoraIncio4_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim4_Tarde.Text.Trim());
@@ -1672,7 +1672,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("5");
                 Informações.Add(TxtBox_HoraIncio5_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim5_Tarde.Text.Trim());
@@ -1697,7 +1697,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("6");
                 Informações.Add(TxtBox_HoraIncio6_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim6_Tarde.Text.Trim());
@@ -1722,7 +1722,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("7");
                 Informações.Add(TxtBox_HoraIncio7_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim7_Tarde.Text.Trim());
@@ -1747,7 +1747,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("8");
                 Informações.Add(TxtBox_HoraIncio6_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim8_Tarde.Text.Trim());
@@ -1772,7 +1772,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("9");
                 Informações.Add(TxtBox_HoraIncio6_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim8_Tarde.Text.Trim());
@@ -1797,7 +1797,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("10");
                 Informações.Add(TxtBox_HoraIncio6_Tarde.Text.Trim());
                 Informações.Add(TxtBox_HoraFim8_Tarde.Text.Trim());
@@ -2071,7 +2071,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("1");
                 Informações.Add(TxtBox_HoraIncio1_Noite.Text.Trim());
                 Informações.Add(TxtBox_HoraFim1_Noite.Text.Trim());
@@ -2097,7 +2097,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("2");
                 Informações.Add(TxtBox_HoraIncio2_Noite.Text.Trim());
                 Informações.Add(TxtBox_HoraFim2_Noite.Text.Trim());
@@ -2122,7 +2122,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("3");
                 Informações.Add(TxtBox_HoraIncio3_Noite.Text.Trim());
                 Informações.Add(TxtBox_HoraFim3_Noite.Text.Trim());
@@ -2147,7 +2147,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("4");
                 Informações.Add(TxtBox_HoraIncio4_Noite.Text.Trim());
                 Informações.Add(TxtBox_HoraFim4_Noite.Text.Trim());
@@ -2172,7 +2172,7 @@ namespace Marelli___Hour_by_Hour
             {
                 List<string> Informações = new List<string>();
 
-                Informações.Add(Lb_DateToday.Text.Trim());
+                Informações.Add(DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'").Trim());
                 Informações.Add("5");
                 Informações.Add(TxtBox_HoraIncio5_Noite.Text.Trim());
                 Informações.Add(TxtBox_HoraFim5_Noite.Text.Trim());
@@ -2312,6 +2312,7 @@ namespace Marelli___Hour_by_Hour
             }
 
         }
+
 
 
         #endregion TURNONoite

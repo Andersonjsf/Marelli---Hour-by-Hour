@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Marelli___Hour_by_Hour.Model
 {
@@ -29,6 +30,20 @@ namespace Marelli___Hour_by_Hour.Model
             if (con.State == System.Data.ConnectionState.Open)
             {
                 con.Close();
+            }
+        }
+
+        public void TestConnection()
+        {
+            try
+            {
+                con.Open();
+                MessageBox.Show("Conexão realizada com Sucesso.");
+                con.Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Não foi possivel se conectar com o banco");
             }
         }
     }

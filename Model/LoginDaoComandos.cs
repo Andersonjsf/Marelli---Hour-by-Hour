@@ -35,6 +35,7 @@ namespace Marelli___Hour_by_Hour.Model
                 }
                 con.desconect();
                 dr.Close();
+                cmd.Parameters.Clear();
                 cmd.Dispose();
             }
             catch (SqlException e)
@@ -59,7 +60,8 @@ namespace Marelli___Hour_by_Hour.Model
             {
                  cmd.Connection = con.Conectar();
                  cmd.ExecuteNonQuery();
-                 con.desconect();
+                cmd.Parameters.Clear();
+                con.desconect();
               
                 this.Mensagem = "Usuario " + Id + " Cadastrado com Sucesso";
                  ExistNoBanco = true;
@@ -101,7 +103,8 @@ namespace Marelli___Hour_by_Hour.Model
                 }
                 cmd.Dispose();
                 con.desconect();
-              
+                cmd.Parameters.Clear();
+
             }
             catch (SqlException e)
             {
@@ -115,8 +118,8 @@ namespace Marelli___Hour_by_Hour.Model
         public DataTable VerificarRegistros(string IdRegistro, string Data, string Turno)
         {
             DataTable Registros = new DataTable();
-            cmd.CommandText = "SELECT * FROM Tb_HistoricoRegistro WHERE DataRegistro = @DataRegistro AND Id = @IdRegistro AND Turno = @Turno";
-            cmd.Parameters.AddWithValue("@DataRegistro", Data);
+            cmd.CommandText = "SELECT [DataRegistro] as datetime ,[Id] ,[HoraInicio] ,[HoraFim] ,[CodParada]  ,[DescricaoParada] ,[Producao] ,[Retrabalho] ,[Equipamento],[Tempo]  ,[Turno] ,[Operador] FROM Tb_HistoricoRegistro WHERE DataRegistro LIKE @DataRegistro AND Id = @IdRegistro AND Turno = @Turno";
+            cmd.Parameters.AddWithValue("@DataRegistro", Data+"%");
             cmd.Parameters.AddWithValue("@IdRegistro", IdRegistro);
             cmd.Parameters.AddWithValue("@Turno", Turno);
 
@@ -216,10 +219,35 @@ namespace Marelli___Hour_by_Hour.Model
             return MotivoParada;
         }
 
-           
+        public string CadastroLog(string User, string IP, string Maquina, string Data)
+        {
+            ExistNoBanco = false;
+            cmd.CommandText = "INSERT INTO [dbo].[Tb_LogUser] VALUES(@User, @IP,@Maquina,@Data)";
+            cmd.Parameters.AddWithValue("@User", User);
+            cmd.Parameters.AddWithValue("@IP", IP);
+            cmd.Parameters.AddWithValue("@Maquina", Maquina);
+            cmd.Parameters.AddWithValue("@Data", Data);
+            
+            try
+            {
+                cmd.Connection = con.Conectar();
+                cmd.ExecuteNonQuery();
+                cmd.Parameters.Clear();
+                con.desconect();
+
+                ExistNoBanco = true;
+            }
+            catch (SqlException e)
+            {
+
+                this.Mensagem = "Erro com o banco de dados " + e;
+            }
+            return Mensagem;
         }
 
-
     }
+
+
+}
 
 

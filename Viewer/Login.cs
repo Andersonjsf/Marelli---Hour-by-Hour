@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Marelli___Hour_by_Hour.Controller;
 using Marelli___Hour_by_Hour.Model;
 using Marelli___Hour_by_Hour.Viewer;
+using System.Net;
 
 namespace Marelli___Hour_by_Hour
 {
@@ -39,7 +40,12 @@ namespace Marelli___Hour_by_Hour
             Controle.Acess(TxtBox_UserID.Text, TxtBox_Password.Text);
             if (Controle.ExistNoBanco)
             {
-              
+                string NomeMarchine = Dns.GetHostName();
+                IPAddress[] Adress = Dns.GetHostAddresses(NomeMarchine);
+                string IP =  Adress[3].ToString();
+                string Date = DateTime.Now.ToString("dd/MM/yyyy'T'HH:mm:ss.fffffff'Z'");
+
+                Controle.Log(TxtBox_UserID.Text,IP,NomeMarchine, Date);
                 Close();
                 
             }
